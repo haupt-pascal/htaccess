@@ -6,7 +6,7 @@ This is a repository with all the usless parts of a .htaccess file. From redirec
 
 ## Content
 
-[301 Redirect: ](https://github.com/haupt-pascal/htaccess/301_redirect.txt) a block with a 301 redirect to another url
+[301 Redirect: ](https://github.com/haupt-pascal/htaccess/301_redirect.txt) a block with a 301 redirect to another url\
 [Bad Bots: ](https://github.com/haupt-pascal/htaccess/bad_bots.txt) a block which is created to block nearly all bad bots
 
 
