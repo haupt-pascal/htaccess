@@ -9,7 +9,7 @@ This is a repository with all the usless parts of a .htaccess file. From redirec
 [301 Redirect: ](https://github.com/haupt-pascal/htaccess/blob/main/src/301_redirect.txt) a block with a 301 redirect to another url\
 [Bad Bots: ](https://github.com/haupt-pascal/htaccess/blob/main/src/bad_bots.txt) a block which is created to block nearly all bad bots\
 [Non-WWW to WWW: ](https://github.com/haupt-pascal/htaccess/blob/main/src/non_wwww_www.txt) a block to redirect vom non-www to www domain\
-[WWW to Non-WWW: ](https://github.com/haupt-pascal/htaccess/blob/main/src/wwww_non_www.txt) a block to redirect vom www to non-www domain\
+[WWW to Non-WWW: ](https://github.com/haupt-pascal/htaccess/blob/main/src/wwww_non_www.txt) a block to redirect vom www to non-www domain
 
 
 ## Contributing & Requests
