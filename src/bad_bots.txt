@@ -1818,6 +1818,7 @@ SetEnvIfNoCase User-Agent "^ZumBot.*" bad_bot
 SetEnvIfNoCase User-Agent "^Zyborg.*" bad_bot
 SetEnvIfNoCase User-Agent "^ZyBorg.*" bad_bot
 SetEnvIfNoCase User-Agent "^Zyte.*" bad_bot
+
 <Limit GET POST PUT>
   Order Allow,Deny
   Allow from all
