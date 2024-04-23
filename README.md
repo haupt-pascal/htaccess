@@ -13,7 +13,7 @@ This is a repository with all the usless parts of a .htaccess file. From redirec
 
 ### Security and Privacy
 [SQL Injection Prevention: ](https://github.com/haupt-pascal/htaccess/blob/main/src/security/sql_injection_prevention.txt) a block to prevent SQL Injections\
-[Bad Bots: ](https://github.com/haupt-pascal/htaccess/blob/main/src/security/bad_bots.txt) a block which is created to block nearly all bad bots\
+[Bad Bots Blocking: ](https://github.com/haupt-pascal/htaccess/blob/main/src/security/bad_bots.txt) a block which is created to block nearly all bad bots
 
 ## Contributing & Requests
 
