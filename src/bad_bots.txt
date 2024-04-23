@@ -208,6 +208,7 @@ SetEnvIfNoCase User-Agent "^byindia.*" bad_bot
 SetEnvIfNoCase User-Agent "^BYINDIA.*" bad_bot
 SetEnvIfNoCase User-Agent "^BySpider.*" bad_bot
 SetEnvIfNoCase User-Agent "^byteserver.*" bad_bot
+SetEnvIfNoCase User-Agent "^ByteSpider.*" bad_bot
 SetEnvIfNoCase User-Agent "^bzBot.*" bad_bot
 SetEnvIfNoCase User-Agent "^c r a w l 3 r.*" bad_bot
 SetEnvIfNoCase User-Agent "^CacheBlaster.*" bad_bot
@@ -560,6 +561,7 @@ SetEnvIfNoCase User-Agent "^GigabotSiteSearch.*" bad_bot
 SetEnvIfNoCase User-Agent "^Girafabot.*" bad_bot
 SetEnvIfNoCase User-Agent "^GleameBot.*" bad_bot
 SetEnvIfNoCase User-Agent "^gnome-vfs.*" bad_bot
+SetEnvIfNoCase User-Agent "^GPTBot/1.0.*" bad_bot
 SetEnvIfNoCase User-Agent "^Go-Ahead-Got-It.*" bad_bot
 SetEnvIfNoCase User-Agent "^Go!Zilla.*" bad_bot
 SetEnvIfNoCase User-Agent "^GoForIt.com.*" bad_bot
