@@ -4,7 +4,7 @@
 This is a repository with all the usless parts of a .htaccess file. From redirects up to blocking bots, creating routes etc.... all included! Feel free to contribute!
 
 
-## Content
+## Table of Contents
 - ### [Redirections and Rewrites](https://github.com/haupt-pascal/htaccess?tab=readme-ov-file#redirections-and-rewrites)
     - [Redirect to a specific domain with 301](https://github.com/haupt-pascal/htaccess/blob/main/src/rewrites/301_redirect.txt)\
     - [Redirect to a specific domain with 302](https://github.com/haupt-pascal/htaccess/blob/main/src/rewrites/302_redirect.txt)\
