@@ -1,0 +1,1830 @@
+##############################################
+##### BAD BOT PREVENTION BY HAUPT-PASCAL #####
+##############################################
+
+<IfModule mod_setenvif.c>
+# BrowserMatchNoCase User-Agent ^$ bad_bot
+BrowserMatchNoCase User-Agent "^12soso.*" bad_bot
+BrowserMatchNoCase User-Agent "^192.comAgent.*" bad_bot
+BrowserMatchNoCase User-Agent "^1Noonbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^1on1searchBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^3D_SEARCH.*" bad_bot
+BrowserMatchNoCase User-Agent "^3DE_SEARCH2.*" bad_bot
+BrowserMatchNoCase User-Agent "^3GSE.*" bad_bot
+BrowserMatchNoCase User-Agent "^50.nu.*" bad_bot
+BrowserMatchNoCase User-Agent "^A1 Sitemap Generator.*" bad_bot
+BrowserMatchNoCase User-Agent "^A1 Website Download.*" bad_bot
+BrowserMatchNoCase User-Agent "^A6-Indexer.*" bad_bot
+BrowserMatchNoCase User-Agent "^AASP.*" bad_bot
+BrowserMatchNoCase User-Agent "^ABACHOBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Abonti.*" bad_bot
+BrowserMatchNoCase User-Agent "^abot.*" bad_bot
+BrowserMatchNoCase User-Agent "^AbotEmailSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^AboutUsBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^AccMonitor Compliance Server.*" bad_bot
+BrowserMatchNoCase User-Agent "^accoona.*" bad_bot
+BrowserMatchNoCase User-Agent "^AChulkov.NET page walker.*" bad_bot
+BrowserMatchNoCase User-Agent "^Acme.Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^AcoonBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^acquia-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^ActiveTouristBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Ad Muncher.*" bad_bot
+BrowserMatchNoCase User-Agent "^AdamM Bot,.*" bad_bot
+BrowserMatchNoCase User-Agent "^adbeat_bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^AdMedia bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^adminshop.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^Advanced Email Extractor.*" bad_bot
+BrowserMatchNoCase User-Agent "^AESOP_com_SpiderMan.*" bad_bot
+BrowserMatchNoCase User-Agent "^AESpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^AF Knowledge Now Verity Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^aggregator:Vocus.*" bad_bot
+BrowserMatchNoCase User-Agent "^ah-ha.com crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^AhrefsBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^AhrefsBot/5.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^AIBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^aiHitBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^aipbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^AISIID.*" bad_bot
+BrowserMatchNoCase User-Agent "^AITCSRobot/1.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^Akamai-SiteSnapshot.*" bad_bot
+BrowserMatchNoCase User-Agent "^AlexaWebSearchPlatform.*" bad_bot
+BrowserMatchNoCase User-Agent "^AlexfDownload.*" bad_bot
+BrowserMatchNoCase User-Agent "^Alexibot.*" bad_bot
+BrowserMatchNoCase User-Agent "^AlkalineBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^All Acronyms Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Alpha Search Agent.*" bad_bot
+BrowserMatchNoCase User-Agent "^Amerla Search Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Amfibibot.*" bad_bot
+BrowserMatchNoCase User-Agent "^AmPmPPC.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^AMZNKAssocBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Amazonbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Anemone.*" bad_bot
+BrowserMatchNoCase User-Agent "^Anonymous/3G bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Anonymouse.org.*" bad_bot
+BrowserMatchNoCase User-Agent "^AnotherBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^AnswerBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^AnswerBus.*" bad_bot
+BrowserMatchNoCase User-Agent "^AnswerChase PROve.*" bad_bot
+BrowserMatchNoCase User-Agent "^AntBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^antibot-.*" bad_bot
+BrowserMatchNoCase User-Agent "^AntiSantyWorm.*" bad_bot
+BrowserMatchNoCase User-Agent "^Antro.Net.*" bad_bot
+BrowserMatchNoCase User-Agent "^AONDE-Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Apache-HttpClient.*" bad_bot
+BrowserMatchNoCase User-Agent "^Apache-HttpClient/4.0.1 (java 1.5).*" bad_bot
+BrowserMatchNoCase User-Agent "^ApacheBench.*" bad_bot
+BrowserMatchNoCase User-Agent "^Aport.*" bad_bot
+BrowserMatchNoCase User-Agent "^appid: s~stremor-crawler-.*" bad_bot
+BrowserMatchNoCase User-Agent "^Aqua_Products.*" bad_bot
+BrowserMatchNoCase User-Agent "^AraBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Arachmo.*" bad_bot
+BrowserMatchNoCase User-Agent "^Arachnophilia.*" bad_bot
+BrowserMatchNoCase User-Agent "^archive.org_bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^aria eQualizer.*" bad_bot
+BrowserMatchNoCase User-Agent "^arianna.libero.it.*" bad_bot
+BrowserMatchNoCase User-Agent "^Arikus_Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Art-Online.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^ArtavisBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Artera.*" bad_bot
+BrowserMatchNoCase User-Agent "^ASAHA Search Engine Turkey.*" bad_bot
+BrowserMatchNoCase User-Agent "^ASpider/0.09.*" bad_bot
+BrowserMatchNoCase User-Agent "^ASPSeek.*" bad_bot
+BrowserMatchNoCase User-Agent "^ASPseek.*" bad_bot
+BrowserMatchNoCase User-Agent "^asterias.*" bad_bot
+BrowserMatchNoCase User-Agent "^AstroFind.*" bad_bot
+BrowserMatchNoCase User-Agent "^athenusbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^AtlocalBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Atomic_Email_Hunter.*" bad_bot
+BrowserMatchNoCase User-Agent "^attach.*" bad_bot
+BrowserMatchNoCase User-Agent "^attrakt.*" bad_bot
+BrowserMatchNoCase User-Agent "^Attributor.comBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^attributor.*" bad_bot
+BrowserMatchNoCase User-Agent "^Attributor/Dejan-.*" bad_bot
+BrowserMatchNoCase User-Agent "^augurfind.*" bad_bot
+BrowserMatchNoCase User-Agent "^AURESYS.*" bad_bot
+BrowserMatchNoCase User-Agent "^AutoBaron crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^autoemailspider.*" bad_bot
+BrowserMatchNoCase User-Agent "^autowebdir.*" bad_bot
+BrowserMatchNoCase User-Agent "^AVSearch-.*" bad_bot
+BrowserMatchNoCase User-Agent "^axfeedsbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Axonize-bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Ayna.*" bad_bot
+BrowserMatchNoCase User-Agent "^b2w.*" bad_bot
+BrowserMatchNoCase User-Agent "^b2w/0.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^BackDoorBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BackRub/..*" bad_bot
+BrowserMatchNoCase User-Agent "^BackStreet Browser.*" bad_bot
+BrowserMatchNoCase User-Agent "^BackWeb.*" bad_bot
+BrowserMatchNoCase User-Agent "^Baiduspider.*" bad_bot
+BrowserMatchNoCase User-Agent "^BaiDuSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^BaiduSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Baiduspider-video.*" bad_bot
+BrowserMatchNoCase User-Agent "^Baiduspider+.*" bad_bot
+BrowserMatchNoCase User-Agent "^Bandit.*" bad_bot
+BrowserMatchNoCase User-Agent "^BatchFTP.*" bad_bot
+BrowserMatchNoCase User-Agent "^baypup.*" bad_bot
+BrowserMatchNoCase User-Agent "^BDFetch.*" bad_bot
+BrowserMatchNoCase User-Agent "^BecomeBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BecomeJPBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BeetleBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Bender.*" bad_bot
+BrowserMatchNoCase User-Agent "^besserscheitern-crawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^betaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Big Brother.*" bad_bot
+BrowserMatchNoCase User-Agent "^Big Data.*" bad_bot
+BrowserMatchNoCase User-Agent "^Bigado.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^BigCliqueBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BigCliqueBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^Bigfoot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BIGLOTRON.*" bad_bot
+BrowserMatchNoCase User-Agent "^Bilbo.*" bad_bot
+BrowserMatchNoCase User-Agent "^BilgiBetaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BilgiBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^bintellibot.*" bad_bot
+BrowserMatchNoCase User-Agent "^bitlybot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BitvoUserAgent.*" bad_bot
+BrowserMatchNoCase User-Agent "^Bizbot003.*" bad_bot
+BrowserMatchNoCase User-Agent "^BizBot04 kirk.overleaf.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^BizWorks Retriever.*" bad_bot
+BrowserMatchNoCase User-Agent "^Black Hole.*" bad_bot
+BrowserMatchNoCase User-Agent "^Black.Hole.*" bad_bot
+BrowserMatchNoCase User-Agent "^Blackbird.*" bad_bot
+BrowserMatchNoCase User-Agent "^BlackMask.Net Search Engine.*" bad_bot
+BrowserMatchNoCase User-Agent "^BlackWidow.*" bad_bot
+BrowserMatchNoCase User-Agent "^bladder fusion.*" bad_bot
+BrowserMatchNoCase User-Agent "^Blaiz-Bee.*" bad_bot
+BrowserMatchNoCase User-Agent "^BLEXBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Blinkx/DFS-Fetch.*" bad_bot
+BrowserMatchNoCase User-Agent "^BlitzBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^Blog Conversation Project.*" bad_bot
+BrowserMatchNoCase User-Agent "^BlogMyWay.*" bad_bot
+BrowserMatchNoCase User-Agent "^BlogPulseLive.*" bad_bot
+BrowserMatchNoCase User-Agent "^BlogRefsBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BlogScope.*" bad_bot
+BrowserMatchNoCase User-Agent "^Blogslive.*" bad_bot
+BrowserMatchNoCase User-Agent "^BloobyBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BlowFish.*" bad_bot
+BrowserMatchNoCase User-Agent "^BLT.*" bad_bot
+BrowserMatchNoCase User-Agent "^bnf.fr_bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BoaConstrictor.*" bad_bot
+BrowserMatchNoCase User-Agent "^BoardReader-Image-Fetcher.*" bad_bot
+BrowserMatchNoCase User-Agent "^BOI_crawl_00.*" bad_bot
+BrowserMatchNoCase User-Agent "^BOIA-Scan-Agent.*" bad_bot
+BrowserMatchNoCase User-Agent "^BOIA.ORG-Scan-Agent.*" bad_bot
+BrowserMatchNoCase User-Agent "^boitho.com-dc.*" bad_bot
+BrowserMatchNoCase User-Agent "^Bookmark Buddy bookmark checker.*" bad_bot
+BrowserMatchNoCase User-Agent "^Bookmark search tool.*" bad_bot
+BrowserMatchNoCase User-Agent "^bosug.*" bad_bot
+BrowserMatchNoCase User-Agent "^Bot Apoena.*" bad_bot
+BrowserMatchNoCase User-Agent "^Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^BotALot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BotRightHere.*" bad_bot
+BrowserMatchNoCase User-Agent "^Botswana.*" bad_bot
+BrowserMatchNoCase User-Agent "^bottybot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BpBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BRAINTIME_SEARCH.*" bad_bot
+BrowserMatchNoCase User-Agent "^BrokenLinkCheck.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^BrowserEmulator.*" bad_bot
+BrowserMatchNoCase User-Agent "^BrowserMob.*" bad_bot
+BrowserMatchNoCase User-Agent "^BruinBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BSearchR&D.*" bad_bot
+BrowserMatchNoCase User-Agent "^BSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^btbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Btsearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^Buddy.*" bad_bot
+BrowserMatchNoCase User-Agent "^Buibui.*" bad_bot
+BrowserMatchNoCase User-Agent "^BuildCMS crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^BuiltBotTough.*" bad_bot
+BrowserMatchNoCase User-Agent "^Bullseye.*" bad_bot
+BrowserMatchNoCase User-Agent "^bumblebee.*" bad_bot
+BrowserMatchNoCase User-Agent "^BunnySlippers.*" bad_bot
+BrowserMatchNoCase User-Agent "^BuscadorClarin.*" bad_bot
+BrowserMatchNoCase User-Agent "^Buscaplus Robi.*" bad_bot
+BrowserMatchNoCase User-Agent "^Butterfly.*" bad_bot
+BrowserMatchNoCase User-Agent "^BuyHawaiiBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^BuzzBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^byindia.*" bad_bot
+BrowserMatchNoCase User-Agent "^BYINDIA.*" bad_bot
+BrowserMatchNoCase User-Agent "^BySpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^byteserver.*" bad_bot
+BrowserMatchNoCase User-Agent "^bzBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^c r a w l 3 r.*" bad_bot
+BrowserMatchNoCase User-Agent "^CacheBlaster.*" bad_bot
+BrowserMatchNoCase User-Agent "^Caddbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Cafi.*" bad_bot
+BrowserMatchNoCase User-Agent "^Camcrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^CamelStampede.*" bad_bot
+BrowserMatchNoCase User-Agent "^Canon-WebRecord.*" bad_bot
+BrowserMatchNoCase User-Agent "^Canon-WebRecordPro.*" bad_bot
+BrowserMatchNoCase User-Agent "^CareerBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^cataguru.*" bad_bot
+BrowserMatchNoCase User-Agent "^CatchBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^CazoodleBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^CCBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^CCGCrawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^ccubee.*" bad_bot
+BrowserMatchNoCase User-Agent "^CD-Preload.*" bad_bot
+BrowserMatchNoCase User-Agent "^CE-Preload.*" bad_bot
+BrowserMatchNoCase User-Agent "^Cegbfeieh.*" bad_bot
+BrowserMatchNoCase User-Agent "^Cerberian Drtrs.*" bad_bot
+BrowserMatchNoCase User-Agent "^CERT FigleafBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^cfetch.*" bad_bot
+BrowserMatchNoCase User-Agent "^CFNetwork.*" bad_bot
+BrowserMatchNoCase User-Agent "^Chameleon.*" bad_bot
+BrowserMatchNoCase User-Agent "^Charlotte.*" bad_bot
+BrowserMatchNoCase User-Agent "^Check&Get.*" bad_bot
+BrowserMatchNoCase User-Agent "^Checkbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^CheckLinks.*" bad_bot
+BrowserMatchNoCase User-Agent "^Checklinks.*" bad_bot
+BrowserMatchNoCase User-Agent "^CheeseBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^ChemieDE-NodeBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^CherryPicker.*" bad_bot
+BrowserMatchNoCase User-Agent "^CherryPickerElite.*" bad_bot
+BrowserMatchNoCase User-Agent "^CherryPickerSE.*" bad_bot
+BrowserMatchNoCase User-Agent "^Chilkat.*" bad_bot
+BrowserMatchNoCase User-Agent "^ChinaClaw.*" bad_bot
+BrowserMatchNoCase User-Agent "^CipinetBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^cis455crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^citeseerxbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^cizilla.com/Cizilla-.*" bad_bot
+BrowserMatchNoCase User-Agent "^ClariaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Climate Ark.*" bad_bot
+BrowserMatchNoCase User-Agent "^ClimateArk Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Clushbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^COAST scan engine.*" bad_bot
+BrowserMatchNoCase User-Agent "^COAST WebMaster Pro.*" bad_bot
+BrowserMatchNoCase User-Agent "^coccoc.*" bad_bot
+BrowserMatchNoCase User-Agent "^CollapsarWEB.*" bad_bot
+BrowserMatchNoCase User-Agent "^Collector.*" bad_bot
+BrowserMatchNoCase User-Agent "^Combine.*" bad_bot
+BrowserMatchNoCase User-Agent "^combine.*" bad_bot
+BrowserMatchNoCase User-Agent "^COMBINE.*" bad_bot
+BrowserMatchNoCase User-Agent "^Compatible.*" bad_bot
+BrowserMatchNoCase User-Agent "^ConnectSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^conpilot.*" bad_bot
+BrowserMatchNoCase User-Agent "^ContentSmartz.*" bad_bot
+BrowserMatchNoCase User-Agent "^ContextAd Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^contype.*" bad_bot
+BrowserMatchNoCase User-Agent "^cookieNET.*" bad_bot
+BrowserMatchNoCase User-Agent "^CoolBot .*" bad_bot
+BrowserMatchNoCase User-Agent "^CoolCheck.*" bad_bot
+BrowserMatchNoCase User-Agent "^Copernic.*" bad_bot
+BrowserMatchNoCase User-Agent "^Copier.*" bad_bot
+BrowserMatchNoCase User-Agent "^CopyRightCheck.*" bad_bot
+BrowserMatchNoCase User-Agent "^core-project.*" bad_bot
+BrowserMatchNoCase User-Agent "^cosmos.*" bad_bot
+BrowserMatchNoCase User-Agent "^Covario-IDS.*" bad_bot
+BrowserMatchNoCase User-Agent "^Cowbot-.*" bad_bot
+BrowserMatchNoCase User-Agent "^Cowdog Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^crabbyBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Crawl_Application.*" bad_bot
+BrowserMatchNoCase User-Agent "^crawl.UserAgent.*" bad_bot
+BrowserMatchNoCase User-Agent "^Crawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^crawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^CrawlConvera.*" bad_bot
+BrowserMatchNoCase User-Agent "^Crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^crawler_for_infomine.*" bad_bot
+BrowserMatchNoCase User-Agent "^CRAWLER-ALTSE.VUNET.ORG-Lynx.*" bad_bot
+BrowserMatchNoCase User-Agent "^crawler-upgrade-config.*" bad_bot
+BrowserMatchNoCase User-Agent "^crawler.kpricorn.org.*" bad_bot
+BrowserMatchNoCase User-Agent "^crawler@.*" bad_bot
+BrowserMatchNoCase User-Agent "^crawler43.ejupiter.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^crawler4j.*" bad_bot
+BrowserMatchNoCase User-Agent "^Crawly.*" bad_bot
+BrowserMatchNoCase User-Agent "^CreativeCommons.*" bad_bot
+BrowserMatchNoCase User-Agent "^Crescent.*" bad_bot
+BrowserMatchNoCase User-Agent "^Crescent Internet ToolPak HTTP OLE Control v.1.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^cs-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^CSE HTML Validator.*" bad_bot
+BrowserMatchNoCase User-Agent "^CSHttpClient.*" bad_bot
+BrowserMatchNoCase User-Agent "^Cuasarbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^culsearch/culs.*" bad_bot
+BrowserMatchNoCase User-Agent "^Curl.*" bad_bot
+BrowserMatchNoCase User-Agent "^Custo.*" bad_bot
+BrowserMatchNoCase User-Agent "^cvaulev.*" bad_bot
+BrowserMatchNoCase User-Agent "^Cyberdog.*" bad_bot
+BrowserMatchNoCase User-Agent "^CyberNavi_WebGet.*" bad_bot
+BrowserMatchNoCase User-Agent "^CyberPatrol SiteCat Webbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^CyberSpyder.*" bad_bot
+BrowserMatchNoCase User-Agent "^CydralSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^D1GArabicEngine.*" bad_bot
+BrowserMatchNoCase User-Agent "^DA.*" bad_bot
+BrowserMatchNoCase User-Agent "^DataCha0s.*" bad_bot
+BrowserMatchNoCase User-Agent "^DataFountains.*" bad_bot
+BrowserMatchNoCase User-Agent "^DataFountains/DMOZ Downloader.*" bad_bot
+BrowserMatchNoCase User-Agent "^DataparkSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^datascape robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^DataSpearSpiderBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^DataSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Dattatec.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^Dattatec.com-Sitios-Top.*" bad_bot
+BrowserMatchNoCase User-Agent "^Daumoa.*" bad_bot
+BrowserMatchNoCase User-Agent "^DAUMOA-video.*" bad_bot
+BrowserMatchNoCase User-Agent "^DAUMOA-web.*" bad_bot
+BrowserMatchNoCase User-Agent "^Declumbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Deepindex.*" bad_bot
+BrowserMatchNoCase User-Agent "^deepnet crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^DeepTrawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^dejan.*" bad_bot
+BrowserMatchNoCase User-Agent "^del.icio.us-thumbnails.*" bad_bot
+BrowserMatchNoCase User-Agent "^DelvuBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Der große BilderSauger.*" bad_bot
+BrowserMatchNoCase User-Agent "^DiaGem.*" bad_bot
+BrowserMatchNoCase User-Agent "^Diamond.*" bad_bot
+BrowserMatchNoCase User-Agent "^DiamondBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^DiBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^didaxusbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^DigExt.*" bad_bot
+BrowserMatchNoCase User-Agent "^Digger.*" bad_bot
+BrowserMatchNoCase User-Agent "^DiGi-RSSBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^DigitalArchivesBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^DigOut4U.*" bad_bot
+BrowserMatchNoCase User-Agent "^DIIbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Dillo.*" bad_bot
+BrowserMatchNoCase User-Agent "^Dir_Snatch.exe.*" bad_bot
+BrowserMatchNoCase User-Agent "^DISCo.*" bad_bot
+BrowserMatchNoCase User-Agent "^DISCo Pump.*" bad_bot
+BrowserMatchNoCase User-Agent "^DISCo Pump 3.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^DISCo Pump 3.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^DISCoFinder.*" bad_bot
+BrowserMatchNoCase User-Agent "^Distilled-Reputation-Monitor.*" bad_bot
+BrowserMatchNoCase User-Agent "^Dit.*" bad_bot
+BrowserMatchNoCase User-Agent "^DittoSpyder.*" bad_bot
+BrowserMatchNoCase User-Agent "^DjangoTraineeBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^DKIMRepBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^DoCoMo.*" bad_bot
+BrowserMatchNoCase User-Agent "^DOF-Verify.*" bad_bot
+BrowserMatchNoCase User-Agent "^Domaincrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^domaincrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^DomainScan.*" bad_bot
+BrowserMatchNoCase User-Agent "^DomainWatcher Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^DotBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^DotBot/1.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^DotSpotsBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Dow Jones Searchbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Download.*" bad_bot
+BrowserMatchNoCase User-Agent "^Download Demon.*" bad_bot
+BrowserMatchNoCase User-Agent "^Download Demon/3.2.0.8.*" bad_bot
+BrowserMatchNoCase User-Agent "^Download Demon/3.5.0.11.*" bad_bot
+BrowserMatchNoCase User-Agent "^Download Devil.*" bad_bot
+BrowserMatchNoCase User-Agent "^Download Master.*" bad_bot
+BrowserMatchNoCase User-Agent "^Download Ninja.*" bad_bot
+BrowserMatchNoCase User-Agent "^Download Wonder.*" bad_bot
+BrowserMatchNoCase User-Agent "^Downloader.*" bad_bot
+BrowserMatchNoCase User-Agent "^DOY.*" bad_bot
+BrowserMatchNoCase User-Agent "^dragonfly.*" bad_bot
+BrowserMatchNoCase User-Agent "^Drip.*" bad_bot
+BrowserMatchNoCase User-Agent "^drone.*" bad_bot
+BrowserMatchNoCase User-Agent "^Drupal.*" bad_bot
+BrowserMatchNoCase User-Agent "^DTAAgent.*" bad_bot
+BrowserMatchNoCase User-Agent "^dtSearchSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^dumbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Dumbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Dwaar.*" bad_bot
+BrowserMatchNoCase User-Agent "^Dwaarbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^DXSeeker.*" bad_bot
+BrowserMatchNoCase User-Agent "^EAH.*" bad_bot
+BrowserMatchNoCase User-Agent "^Earth Platform Indexer.*" bad_bot
+BrowserMatchNoCase User-Agent "^Earth Science Educator  robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^EARTHCOM.info.*" bad_bot
+BrowserMatchNoCase User-Agent "^EARTHCOM.*" bad_bot
+BrowserMatchNoCase User-Agent "^EasyDL.*" bad_bot
+BrowserMatchNoCase User-Agent "^ebingbong.*" bad_bot
+BrowserMatchNoCase User-Agent "^EC2LinkFinder.*" bad_bot
+BrowserMatchNoCase User-Agent "^eCairn-Grabber.*" bad_bot
+BrowserMatchNoCase User-Agent "^eCatch.*" bad_bot
+BrowserMatchNoCase User-Agent "^eCatch/3.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^eChooseBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^EdisterBot (http://www.edister.com/bot.html)" bad_bot
+BrowserMatchNoCase User-Agent "^EduGovSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^egothor.*" bad_bot
+BrowserMatchNoCase User-Agent "^eidetica.com/spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^EirGrabber.*" bad_bot
+BrowserMatchNoCase User-Agent "^Elblindo the Blind Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^ElisaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^EllerdaleBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^EMail Exractor.*" bad_bot
+BrowserMatchNoCase User-Agent "^EmailCollector.*" bad_bot
+BrowserMatchNoCase User-Agent "^EmailLeach.*" bad_bot
+BrowserMatchNoCase User-Agent "^EmailSiphon.*" bad_bot
+BrowserMatchNoCase User-Agent "^EmailWolf.*" bad_bot
+BrowserMatchNoCase User-Agent "^EMPAS_ROBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^EnaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^endeca.*" bad_bot
+BrowserMatchNoCase User-Agent "^EnigmaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Enswer Neuro Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^EntityCubeBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^EroCrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^es.*" bad_bot
+BrowserMatchNoCase User-Agent "^eStyleSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^eSyndiCat Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Eurosoft-Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Evaal.*" bad_bot
+BrowserMatchNoCase User-Agent "^Eventware.*" bad_bot
+BrowserMatchNoCase User-Agent "^Everest-Vulcan Inc..*" bad_bot
+BrowserMatchNoCase User-Agent "^Exabot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Exabot Test.*" bad_bot
+BrowserMatchNoCase User-Agent "^Exabot-Images.*" bad_bot
+BrowserMatchNoCase User-Agent "^Exabot-Test.*" bad_bot
+BrowserMatchNoCase User-Agent "^Exabot-XXX.*" bad_bot
+BrowserMatchNoCase User-Agent "^ExaBotTest.*" bad_bot
+BrowserMatchNoCase User-Agent "^ExactSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^exactseek.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^exooba/exooba crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Exploder.*" bad_bot
+BrowserMatchNoCase User-Agent "^Express WebPictures.*" bad_bot
+BrowserMatchNoCase User-Agent "^Extractor.*" bad_bot
+BrowserMatchNoCase User-Agent "^ExtractorPro.*" bad_bot
+BrowserMatchNoCase User-Agent "^EyeNetIE.*" bad_bot
+BrowserMatchNoCase User-Agent "^ez-robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Ezooms.*" bad_bot
+BrowserMatchNoCase User-Agent "^f-bot test pilot.*" bad_bot
+BrowserMatchNoCase User-Agent "^factbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Factbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^FairAd Client.*" bad_bot
+BrowserMatchNoCase User-Agent "^falcon.*" bad_bot
+BrowserMatchNoCase User-Agent "^Falconsbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^FAST Data Search Document Retriever.*" bad_bot
+BrowserMatchNoCase User-Agent "^FAST ESP.*" bad_bot
+BrowserMatchNoCase User-Agent "^fast-search-engine.*" bad_bot
+BrowserMatchNoCase User-Agent "^fastbot crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^fastbot.de crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^FatBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Favcollector.*" bad_bot
+BrowserMatchNoCase User-Agent "^Faviconizer.*" bad_bot
+BrowserMatchNoCase User-Agent "^Favorites Sweeper.*" bad_bot
+BrowserMatchNoCase User-Agent "^FDM 1.x.*" bad_bot
+BrowserMatchNoCase User-Agent "^FDM 2.x.*" bad_bot
+BrowserMatchNoCase User-Agent "^FDM 3.*" bad_bot
+BrowserMatchNoCase User-Agent "^FDSE robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^FedContractorBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^fembot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Fetch API Request.*" bad_bot
+BrowserMatchNoCase User-Agent "^fetch_ici.*" bad_bot
+BrowserMatchNoCase User-Agent "^fgcrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Filangy.*" bad_bot
+BrowserMatchNoCase User-Agent "^FileHound.*" bad_bot
+BrowserMatchNoCase User-Agent "^FindAnISP.com_ISP_Finder.*" bad_bot
+BrowserMatchNoCase User-Agent "^findlinks.*" bad_bot
+BrowserMatchNoCase User-Agent "^FindWeb.*" bad_bot
+BrowserMatchNoCase User-Agent "^Firebat.*" bad_bot
+BrowserMatchNoCase User-Agent "^FirstGov.gov Search.*" bad_bot
+BrowserMatchNoCase User-Agent "^Flaming AttackBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Flamingo_SearchEngine.*" bad_bot
+BrowserMatchNoCase User-Agent "^FlashCapture.*" bad_bot
+BrowserMatchNoCase User-Agent "^FlashGet.*" bad_bot
+BrowserMatchNoCase User-Agent "^FlashGet WebWasher 3.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^FlickySearchBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Fluffy the spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^flunky.*" bad_bot
+BrowserMatchNoCase User-Agent "^focused_crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^FollowSite.*" bad_bot
+BrowserMatchNoCase User-Agent "^Foobot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Fooooo_Web_Video_Crawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^Fopper.*" bad_bot
+BrowserMatchNoCase User-Agent "^Forest Conservation Portal,.*" bad_bot
+BrowserMatchNoCase User-Agent "^Forest Conservation Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Forests.org Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^FormulaFinderBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Forschungsportal.*" bad_bot
+BrowserMatchNoCase User-Agent "^fr_crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Francis.*" bad_bot
+BrowserMatchNoCase User-Agent "^FreeWebMonitoring SiteChecker.*" bad_bot
+BrowserMatchNoCase User-Agent "^FreshDownload.*" bad_bot
+BrowserMatchNoCase User-Agent "^freshlinks.exe.*" bad_bot
+BrowserMatchNoCase User-Agent "^FriendFeedBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^frodo.at.*" bad_bot
+BrowserMatchNoCase User-Agent "^froGgle.*" bad_bot
+BrowserMatchNoCase User-Agent "^FrontPage.*" bad_bot
+BrowserMatchNoCase User-Agent "^FrontPage [NC,OR].*" bad_bot
+BrowserMatchNoCase User-Agent "^Froola Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^FU-NBI/FU-NBI-.*" bad_bot
+BrowserMatchNoCase User-Agent "^full_breadth_crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^FunnelBack.*" bad_bot
+BrowserMatchNoCase User-Agent "^FurlBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^G10-Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Gaisbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GaisBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GalaxyBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^gazz.*" bad_bot
+BrowserMatchNoCase User-Agent "^generate_infomine_category_classifiers.*" bad_bot
+BrowserMatchNoCase User-Agent "^genevabot.*" bad_bot
+BrowserMatchNoCase User-Agent "^genieBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GenieBotRD_SmallCrawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^Genieo.*" bad_bot
+BrowserMatchNoCase User-Agent "^Geomaxenginebot.*" bad_bot
+BrowserMatchNoCase User-Agent "^geometabot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GeonaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GeoVisu.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetHTMLContents.*" bad_bot
+BrowserMatchNoCase User-Agent "^Getleft.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetLeft.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/2.11.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/3.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/3.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/3.3.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/3.3.3.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/3.3.4.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.0.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.1.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.1.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.1.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.2b (Portuguxeas).*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.2c.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.3.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.5.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.5a.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.5b.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.5b1.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.5b2.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.5b3.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.5b6.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.5b7.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.5c.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.5d.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/4.5e.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/5.0beta1.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetRight/5.0beta2.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetSmart.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetURL.rexx v1.05.*" bad_bot
+BrowserMatchNoCase User-Agent "^GetWeb!.*" bad_bot
+BrowserMatchNoCase User-Agent "^Giant.*" bad_bot
+BrowserMatchNoCase User-Agent "^GigablastOpenSource.*" bad_bot
+BrowserMatchNoCase User-Agent "^Gigabot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GigaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GigabotSiteSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^Girafabot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GleameBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^gnome-vfs.*" bad_bot
+BrowserMatchNoCase User-Agent "^Go-Ahead-Got-It.*" bad_bot
+BrowserMatchNoCase User-Agent "^Go!Zilla.*" bad_bot
+BrowserMatchNoCase User-Agent "^GoForIt.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^GOFORITBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^gold crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Goldfire Server.*" bad_bot
+BrowserMatchNoCase User-Agent "^Golem/1.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^GoodJelly.*" bad_bot
+BrowserMatchNoCase User-Agent "^Gordon-College-Google-Mini.*" bad_bot
+BrowserMatchNoCase User-Agent "^goroam.*" bad_bot
+BrowserMatchNoCase User-Agent "^GoSeebot.*" bad_bot
+BrowserMatchNoCase User-Agent "^gotit.*" bad_bot
+BrowserMatchNoCase User-Agent "^Govbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GPU p2p crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Grabber.*" bad_bot
+BrowserMatchNoCase User-Agent "^GrabNet.*" bad_bot
+BrowserMatchNoCase User-Agent "^Grafula.*" bad_bot
+BrowserMatchNoCase User-Agent "^grapeFX.*" bad_bot
+BrowserMatchNoCase User-Agent "^grapeshot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GrapeshotCrawler/2.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^grbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GreenYogi [ZSEBOT].*" bad_bot
+BrowserMatchNoCase User-Agent "^Gromit.*" bad_bot
+BrowserMatchNoCase User-Agent "^grub.*" bad_bot
+BrowserMatchNoCase User-Agent "^grub crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^grub-client.*" bad_bot
+BrowserMatchNoCase User-Agent "^Grub.*" bad_bot
+BrowserMatchNoCase User-Agent "^Grubclient-.*" bad_bot
+BrowserMatchNoCase User-Agent "^GrubNG.*" bad_bot
+BrowserMatchNoCase User-Agent "^GruBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^gsa.*" bad_bot
+BrowserMatchNoCase User-Agent "^gsa-accuracyEval.*" bad_bot
+BrowserMatchNoCase User-Agent "^gsa-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^gsa-eusleg.*" bad_bot
+BrowserMatchNoCase User-Agent "^GSLFbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Gulliver.*" bad_bot
+BrowserMatchNoCase User-Agent "^GulperBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GurujiBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^GVC BUSINESS crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^GVC crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^GVC SEARCH BOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^GVC WEB crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^GVC Weblink crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^GVC WORLD LINKS.*" bad_bot
+BrowserMatchNoCase User-Agent "^gvcbot.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^HappyFunBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Harvest.*" bad_bot
+BrowserMatchNoCase User-Agent "^Harvest/1.5.*" bad_bot
+BrowserMatchNoCase User-Agent "^HarvestMan.*" bad_bot
+BrowserMatchNoCase User-Agent "^Hatena Antenna.*" bad_bot
+BrowserMatchNoCase User-Agent "^Hawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^hcat.*" bad_bot
+BrowserMatchNoCase User-Agent "^hclsreport-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^HD nutch agent.*" bad_bot
+BrowserMatchNoCase User-Agent "^Header_Test_Client.*" bad_bot
+BrowserMatchNoCase User-Agent "^healia/healia.*" bad_bot
+BrowserMatchNoCase User-Agent "^Helix.*" bad_bot
+BrowserMatchNoCase User-Agent "^here will be link to crawler site.*" bad_bot
+BrowserMatchNoCase User-Agent "^heritrix bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^heritrix.*" bad_bot
+BrowserMatchNoCase User-Agent "^Heritrix.*" bad_bot
+BrowserMatchNoCase User-Agent "^heritrix/3.1.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^heritrix/3.1.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^hijbul-heritrix-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^HiScan.*" bad_bot
+BrowserMatchNoCase User-Agent "^HiSoftware AccMonitor Server.*" bad_bot
+BrowserMatchNoCase User-Agent "^HiSoftware AccVerify.*" bad_bot
+BrowserMatchNoCase User-Agent "^hitcrawler_.*" bad_bot
+BrowserMatchNoCase User-Agent "^hivaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^hloader.*" bad_bot
+BrowserMatchNoCase User-Agent "^HLoader.*" bad_bot
+BrowserMatchNoCase User-Agent "^HMSEbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^HMView.*" bad_bot
+BrowserMatchNoCase User-Agent "^hoge.*" bad_bot
+BrowserMatchNoCase User-Agent "^holmes.*" bad_bot
+BrowserMatchNoCase User-Agent "^HomePageSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^Hooblybot-Image.*" bad_bot
+BrowserMatchNoCase User-Agent "^HooWWWer.*" bad_bot
+BrowserMatchNoCase User-Agent "^Hostcrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^HSFT - Link Scanner.*" bad_bot
+BrowserMatchNoCase User-Agent "^HSFT - LVU Scanner.*" bad_bot
+BrowserMatchNoCase User-Agent "^HSlide.*" bad_bot
+BrowserMatchNoCase User-Agent "^ht://check.*" bad_bot
+BrowserMatchNoCase User-Agent "^htdig.*" bad_bot
+BrowserMatchNoCase User-Agent "^Html Link Validator.*" bad_bot
+BrowserMatchNoCase User-Agent "^HTMLParser.*" bad_bot
+BrowserMatchNoCase User-Agent "^httplib.*" bad_bot
+BrowserMatchNoCase User-Agent "^HTTrack.*" bad_bot
+BrowserMatchNoCase User-Agent "^HTTrack [NC,OR].*" bad_bot
+BrowserMatchNoCase User-Agent "^HTTrack 3.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^Huaweisymantecspider.*" bad_bot
+BrowserMatchNoCase User-Agent "^hul-wax.*" bad_bot
+BrowserMatchNoCase User-Agent "^humanlinks.*" bad_bot
+BrowserMatchNoCase User-Agent "^HyperEstraier.*" bad_bot
+BrowserMatchNoCase User-Agent "^Hyperix.*" bad_bot
+BrowserMatchNoCase User-Agent "^ia_archiver.*" bad_bot
+BrowserMatchNoCase User-Agent "^IAArchiver-.*" bad_bot
+BrowserMatchNoCase User-Agent "^ibuena.*" bad_bot
+BrowserMatchNoCase User-Agent "^iCab.*" bad_bot
+BrowserMatchNoCase User-Agent "^ICDS-Ingestion.*" bad_bot
+BrowserMatchNoCase User-Agent "^ichiro.*" bad_bot
+BrowserMatchNoCase User-Agent "^iCopyright Conductor.*" bad_bot
+BrowserMatchNoCase User-Agent "^IEAutoDiscovery.*" bad_bot
+BrowserMatchNoCase User-Agent "^IECheck.*" bad_bot
+BrowserMatchNoCase User-Agent "^iHWebChecker.*" bad_bot
+BrowserMatchNoCase User-Agent "^IIITBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^iim_405.*" bad_bot
+BrowserMatchNoCase User-Agent "^IlseBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Iltrovatore-Setaccio.*" bad_bot
+BrowserMatchNoCase User-Agent "^IlTrovatore-Setaccio.*" bad_bot
+BrowserMatchNoCase User-Agent "^IlTrovatore.*" bad_bot
+BrowserMatchNoCase User-Agent "^Image Stripper.*" bad_bot
+BrowserMatchNoCase User-Agent "^Image Sucker.*" bad_bot
+BrowserMatchNoCase User-Agent "^ImageBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^imagefortress.*" bad_bot
+BrowserMatchNoCase User-Agent "^ImagesHereImagesThereImagesEverywhere.*" bad_bot
+BrowserMatchNoCase User-Agent "^ImageVisu.*" bad_bot
+BrowserMatchNoCase User-Agent "^imds_monitor.*" bad_bot
+BrowserMatchNoCase User-Agent "^imo-google-robot-intelink.*" bad_bot
+BrowserMatchNoCase User-Agent "^inagist.com url crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Industry Cortex Webcrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Indy Library.*" bad_bot
+BrowserMatchNoCase User-Agent "^Indy Library [NC,OR].*" bad_bot
+BrowserMatchNoCase User-Agent "^indylabs_marius.*" bad_bot
+BrowserMatchNoCase User-Agent "^InelaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Inet32 Ctrl.*" bad_bot
+BrowserMatchNoCase User-Agent "^inetbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^info seeker.*" bad_bot
+BrowserMatchNoCase User-Agent "^InfoLink.*" bad_bot
+BrowserMatchNoCase User-Agent "^infomine.ucr.edu.*" bad_bot
+BrowserMatchNoCase User-Agent "^INFOMINE.*" bad_bot
+BrowserMatchNoCase User-Agent "^InfoNaviRobot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Informant.*" bad_bot
+BrowserMatchNoCase User-Agent "^Infoseek Sidewinder.*" bad_bot
+BrowserMatchNoCase User-Agent "^InfoSeek Sidewinder.*" bad_bot
+BrowserMatchNoCase User-Agent "^Infoseek SideWinder.*" bad_bot
+BrowserMatchNoCase User-Agent "^InfoTekies.*" bad_bot
+BrowserMatchNoCase User-Agent "^InfoUSABot.*" bad_bot
+BrowserMatchNoCase User-Agent "^INGRID.*" bad_bot
+BrowserMatchNoCase User-Agent "^INGRID/0.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^Inktomi.*" bad_bot
+BrowserMatchNoCase User-Agent "^InsightsCollector.*" bad_bot
+BrowserMatchNoCase User-Agent "^InsightsWorksBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^InspireBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^InsumaScout.*" bad_bot
+BrowserMatchNoCase User-Agent "^Intelix.*" bad_bot
+BrowserMatchNoCase User-Agent "^Intelliseek.*" bad_bot
+BrowserMatchNoCase User-Agent "^InterGET.*" bad_bot
+BrowserMatchNoCase User-Agent "^Internet Ninja.*" bad_bot
+BrowserMatchNoCase User-Agent "^Internet Ninja 4.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^Internet Ninja 5.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^Internet Ninja 6.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^INTERNET RADIO crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^InternetLinkAgent.*" bad_bot
+BrowserMatchNoCase User-Agent "^Interseek.*" bad_bot
+BrowserMatchNoCase User-Agent "^IOI.*" bad_bot
+BrowserMatchNoCase User-Agent "^ip-web-crawler.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^IPAdd Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^IpselonBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Ipselonbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Iria.*" bad_bot
+BrowserMatchNoCase User-Agent "^IRLbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Iron33/1.0.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^Isara/Isara-.*" bad_bot
+BrowserMatchNoCase User-Agent "^iSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^iSiloX.*" bad_bot
+BrowserMatchNoCase User-Agent "^IstellaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^its-learning crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^IU_CSCI_B659_class_crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^iVia Page Fetcher.*" bad_bot
+BrowserMatchNoCase User-Agent "^iVia Site Checker.*" bad_bot
+BrowserMatchNoCase User-Agent "^iVia.*" bad_bot
+BrowserMatchNoCase User-Agent "^JadynAve.*" bad_bot
+BrowserMatchNoCase User-Agent "^JadynAveBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Jakarta.*" bad_bot
+BrowserMatchNoCase User-Agent "^Jakarta Commons-HttpClient.*" bad_bot
+BrowserMatchNoCase User-Agent "^Jbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^JemmaTheTourist.*" bad_bot
+BrowserMatchNoCase User-Agent "^JennyBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Jetbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^JetBrains Omea Pro.*" bad_bot
+BrowserMatchNoCase User-Agent "^JetCar.*" bad_bot
+BrowserMatchNoCase User-Agent "^Jim.*" bad_bot
+BrowserMatchNoCase User-Agent "^JoBo.*" bad_bot
+BrowserMatchNoCase User-Agent "^JobSpider_BA.*" bad_bot
+BrowserMatchNoCase User-Agent "^JOC.*" bad_bot
+BrowserMatchNoCase User-Agent "^JOC Web Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^JoeDog.*" bad_bot
+BrowserMatchNoCase User-Agent "^JoyScapeBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^JSpyda.*" bad_bot
+BrowserMatchNoCase User-Agent "^Junut Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^JustView.*" bad_bot
+BrowserMatchNoCase User-Agent "^Jyxobot.*" bad_bot
+BrowserMatchNoCase User-Agent "^K.S.Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^KakcleBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^kalooga.*" bad_bot
+BrowserMatchNoCase User-Agent "^KaloogaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^KATATUDO-Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^kbeta1.*" bad_bot
+BrowserMatchNoCase User-Agent "^KeepNI web site monitor.*" bad_bot
+BrowserMatchNoCase User-Agent "^Kenjin.Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Keybot Translation-Search-Machine.*" bad_bot
+BrowserMatchNoCase User-Agent "^KeywenBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Keyword Density/0.9.*" bad_bot
+BrowserMatchNoCase User-Agent "^Keyword.Density.*" bad_bot
+BrowserMatchNoCase User-Agent "^kinjabot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Kitenga-crawler-bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^KiwiStatus.*" bad_bot
+BrowserMatchNoCase User-Agent "^kmbot-.*" bad_bot
+BrowserMatchNoCase User-Agent "^kmccrew Bot Search.*" bad_bot
+BrowserMatchNoCase User-Agent "^Knight.*" bad_bot
+BrowserMatchNoCase User-Agent "^KnowItAll.*" bad_bot
+BrowserMatchNoCase User-Agent "^Knowledge Engine.*" bad_bot
+BrowserMatchNoCase User-Agent "^Knowledge.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^KoepaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Koninklijke.*" bad_bot
+BrowserMatchNoCase User-Agent "^KrOWLer.*" bad_bot
+BrowserMatchNoCase User-Agent "^KSbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^kuloko-bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^kulturarw3.*" bad_bot
+BrowserMatchNoCase User-Agent "^KummHttp.*" bad_bot
+BrowserMatchNoCase User-Agent "^Kurzor.*" bad_bot
+BrowserMatchNoCase User-Agent "^Kyluka crawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^L.webis.*" bad_bot
+BrowserMatchNoCase User-Agent "^Labhoo.*" bad_bot
+BrowserMatchNoCase User-Agent "^labourunions411.*" bad_bot
+BrowserMatchNoCase User-Agent "^Lachesis.*" bad_bot
+BrowserMatchNoCase User-Agent "^lachesis.*" bad_bot
+BrowserMatchNoCase User-Agent "^Lament.*" bad_bot
+BrowserMatchNoCase User-Agent "^LamerExterminator.*" bad_bot
+BrowserMatchNoCase User-Agent "^LapozzBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^larbin.*" bad_bot
+BrowserMatchNoCase User-Agent "^LARBIN-EXPERIMENTAL.*" bad_bot
+BrowserMatchNoCase User-Agent "^LBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^LeapTag.*" bad_bot
+BrowserMatchNoCase User-Agent "^LeechFTP.*" bad_bot
+BrowserMatchNoCase User-Agent "^LeechGet.*" bad_bot
+BrowserMatchNoCase User-Agent "^LetsCrawl.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^LexiBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^LexxeBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^lftp.*" bad_bot
+BrowserMatchNoCase User-Agent "^libcrawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^libiViaCore.*" bad_bot
+BrowserMatchNoCase User-Agent "^libWeb/clsHTTP.*" bad_bot
+BrowserMatchNoCase User-Agent "^libwww-perl.*" bad_bot
+BrowserMatchNoCase User-Agent "^likse.*" bad_bot
+BrowserMatchNoCase User-Agent "^Linguee Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Link Checker.*" bad_bot
+BrowserMatchNoCase User-Agent "^Link Validator.*" bad_bot
+BrowserMatchNoCase User-Agent "^link_checker.*" bad_bot
+BrowserMatchNoCase User-Agent "^LinkAlarm.*" bad_bot
+BrowserMatchNoCase User-Agent "^linkbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Linkbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^LinkCheck by Siteimprove.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^LinkCheck Scanner.*" bad_bot
+BrowserMatchNoCase User-Agent "^LinkChecker.*" bad_bot
+BrowserMatchNoCase User-Agent "^linkdex.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^LinkextractorPro.*" bad_bot
+BrowserMatchNoCase User-Agent "^LinkLint.*" bad_bot
+BrowserMatchNoCase User-Agent "^linklooker.*" bad_bot
+BrowserMatchNoCase User-Agent "^Linkman.*" bad_bot
+BrowserMatchNoCase User-Agent "^Links SQL.*" bad_bot
+BrowserMatchNoCase User-Agent "^LinkScan.*" bad_bot
+BrowserMatchNoCase User-Agent "^LinkScan/8.1a.Unix.*" bad_bot
+BrowserMatchNoCase User-Agent "^LinksManager.com_bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^LinkSweeper.*" bad_bot
+BrowserMatchNoCase User-Agent "^LinkWalker.*" bad_bot
+BrowserMatchNoCase User-Agent "^LiteFinder.*" bad_bot
+BrowserMatchNoCase User-Agent "^LitlrBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Little Grabber at Skanktale.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^Livelapbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^LM Harvester.*" bad_bot
+BrowserMatchNoCase User-Agent "^LMQueueBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^LNSpiderguy.*" bad_bot
+BrowserMatchNoCase User-Agent "^LoadTimeBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^LocalcomBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^locust.*" bad_bot
+BrowserMatchNoCase User-Agent "^LolongBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^LookBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Lsearch/sondeur.*" bad_bot
+BrowserMatchNoCase User-Agent "^lssbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^LT Scotland Checklink.*" bad_bot
+BrowserMatchNoCase User-Agent "^lwp-request.*" bad_bot
+BrowserMatchNoCase User-Agent "^lwp-trivial.*" bad_bot
+BrowserMatchNoCase User-Agent "^lwp-trivial/1.34.*" bad_bot
+BrowserMatchNoCase User-Agent "^LWP::Simple.*" bad_bot
+BrowserMatchNoCase User-Agent "^LWP/natweb-bad-link-mailer.*" bad_bot
+BrowserMatchNoCase User-Agent "^Lycos_Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Lydia Entity Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^LynnBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Lytranslate.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mag-Net.*" bad_bot
+BrowserMatchNoCase User-Agent "^Magnet.*" bad_bot
+BrowserMatchNoCase User-Agent "^magpie-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Magus Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mail.Ru_Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mail.RU_Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mail.Ru_Bot/2.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mail.Ru.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mail.RU.*" bad_bot
+BrowserMatchNoCase User-Agent "^MAINSEEK_BOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mammoth.*" bad_bot
+BrowserMatchNoCase User-Agent "^Map robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^MarkWatch.*" bad_bot
+BrowserMatchNoCase User-Agent "^MaSagool.*" bad_bot
+BrowserMatchNoCase User-Agent "^masidani_bot_.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mass Downloader.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mass Downloader/2.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mata Hari.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mata.Hari.*" bad_bot
+BrowserMatchNoCase User-Agent "^matentzn at cs dot man dot ac dot uk.*" bad_bot
+BrowserMatchNoCase User-Agent "^maxamine.com--robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^maxamine.com-robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^maxomobot.*" bad_bot
+BrowserMatchNoCase User-Agent "^McBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^medrabbit.*" bad_bot
+BrowserMatchNoCase User-Agent "^Megite.*" bad_bot
+BrowserMatchNoCase User-Agent "^MemacBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Memo.*" bad_bot
+BrowserMatchNoCase User-Agent "^MendeleyBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mercator-.*" bad_bot
+BrowserMatchNoCase User-Agent "^mercuryboard_user_agent_sql_injection.nasl.*" bad_bot
+BrowserMatchNoCase User-Agent "^metacarta.*" bad_bot
+BrowserMatchNoCase User-Agent "^Metaeuro Web Search.*" bad_bot
+BrowserMatchNoCase User-Agent "^Metager2.*" bad_bot
+BrowserMatchNoCase User-Agent "^metager2-verification-bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^MetaGloss.*" bad_bot
+BrowserMatchNoCase User-Agent "^metal crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^metaquerier.cs.uiuc.edu.*" bad_bot
+BrowserMatchNoCase User-Agent "^METASpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Metaspinner.*" bad_bot
+BrowserMatchNoCase User-Agent "^MetaURI API/2.0  metauri.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^MetaURI API/2.0 +metauri.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^MFcrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^MFHttpScan.*" bad_bot
+BrowserMatchNoCase User-Agent "^MIDown tool.*" bad_bot
+BrowserMatchNoCase User-Agent "^MIIxpc.*" bad_bot
+BrowserMatchNoCase User-Agent "^MIIxpc/4.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^mini-robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^minibot.*" bad_bot
+BrowserMatchNoCase User-Agent "^miniRank.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mirror.*" bad_bot
+BrowserMatchNoCase User-Agent "^Missigua Locator.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mister PiX.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mister Pix II 2.01.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mister Pix II 2.02a.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mister PiX version.dll.*" bad_bot
+BrowserMatchNoCase User-Agent "^Mister.PiX.*" bad_bot
+BrowserMatchNoCase User-Agent "^Miva.*" bad_bot
+BrowserMatchNoCase User-Agent "^MJ12bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^mnoGoSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^MnoGoSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^mod_accessibility.*" bad_bot
+BrowserMatchNoCase User-Agent "^moduna.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^moget.*" bad_bot
+BrowserMatchNoCase User-Agent "^moget/2.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^MojeekBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^MonkeyCrawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^MOSES.*" bad_bot
+BrowserMatchNoCase User-Agent "^mowserbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^MQbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^MSE360.*" bad_bot
+BrowserMatchNoCase User-Agent "^MSIndianWebcrawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^MSMOBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^msnbot-products.*" bad_bot
+BrowserMatchNoCase User-Agent "^MSNPTC.*" bad_bot
+BrowserMatchNoCase User-Agent "^MSRBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^MT-Soft.*" bad_bot
+BrowserMatchNoCase User-Agent "^MultiText.*" bad_bot
+BrowserMatchNoCase User-Agent "^My_Little_SearchEngine_Project.*" bad_bot
+BrowserMatchNoCase User-Agent "^my-heritrix-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^MyApp.*" bad_bot
+BrowserMatchNoCase User-Agent "^MYCOMPANYBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^mycrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^MyEngines-US-Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^MyFamilyBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Myra.*" bad_bot
+BrowserMatchNoCase User-Agent "^nabot.*" bad_bot
+BrowserMatchNoCase User-Agent "^nabot_.*" bad_bot
+BrowserMatchNoCase User-Agent "^Najdi.si.*" bad_bot
+BrowserMatchNoCase User-Agent "^Nambu.*" bad_bot
+BrowserMatchNoCase User-Agent "^NAMEPROTECT.*" bad_bot
+BrowserMatchNoCase User-Agent "^NASA Search.*" bad_bot
+BrowserMatchNoCase User-Agent "^NatchCVS.*" bad_bot
+BrowserMatchNoCase User-Agent "^National Park Service Dan Buan.*" bad_bot
+BrowserMatchNoCase User-Agent "^naver.*" bad_bot
+BrowserMatchNoCase User-Agent "^naverbookmarkcrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^NaverBot_dloader.*" bad_bot
+BrowserMatchNoCase User-Agent "^NaverBot-.*" bad_bot
+BrowserMatchNoCase User-Agent "^NaverBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Navroad.*" bad_bot
+BrowserMatchNoCase User-Agent "^NearSite.*" bad_bot
+BrowserMatchNoCase User-Agent "^NEC-MeshExplorer.*" bad_bot
+BrowserMatchNoCase User-Agent "^NeoScioCrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^NerdByNature.Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^NerdyBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Nerima-crawl-.*" bad_bot
+BrowserMatchNoCase User-Agent "^Nessus.*" bad_bot
+BrowserMatchNoCase User-Agent "^NESSUS::SOAP.*" bad_bot
+BrowserMatchNoCase User-Agent "^nestReader.*" bad_bot
+BrowserMatchNoCase User-Agent "^Net Vampire.*" bad_bot
+BrowserMatchNoCase User-Agent "^Net Vampire/3.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^Net::Trackback.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetAnts.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetAnts/1.10.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetAnts/1.23.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetAnts/1.24.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetAnts/1.25.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetCarta CyberPilot Pro.*" bad_bot
+BrowserMatchNoCase User-Agent "^Netcraft.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetID.com Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetMechanic.*" bad_bot
+BrowserMatchNoCase User-Agent "^Netprospector.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetResearchServer.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetSeer.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetSeer crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetSeer crawler/2.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetShift=.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetSongBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Netsparker.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetSrcherP.*" bad_bot
+BrowserMatchNoCase User-Agent "^NetZIP.*" bad_bot
+BrowserMatchNoCase User-Agent "^NewMedhunt.*" bad_bot
+BrowserMatchNoCase User-Agent "^news bot .*" bad_bot
+BrowserMatchNoCase User-Agent "^News_Search_App.*" bad_bot
+BrowserMatchNoCase User-Agent "^NewsGatherer.*" bad_bot
+BrowserMatchNoCase User-Agent "^Newsgroupreporter.*" bad_bot
+BrowserMatchNoCase User-Agent "^NewsTroveBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^NextGenSearchBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^nextthing.org.*" bad_bot
+BrowserMatchNoCase User-Agent "^NG.*" bad_bot
+BrowserMatchNoCase User-Agent "^nicebot.*" bad_bot
+BrowserMatchNoCase User-Agent "^NICErsPRO.*" bad_bot
+BrowserMatchNoCase User-Agent "^niki-bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^NimbleCrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^nimbus-1.*" bad_bot
+BrowserMatchNoCase User-Agent "^ninetowns.*" bad_bot
+BrowserMatchNoCase User-Agent "^Ninja.*" bad_bot
+BrowserMatchNoCase User-Agent "^NjuiceBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^NLese.*" bad_bot
+BrowserMatchNoCase User-Agent "^NLESE USEPA.*" bad_bot
+BrowserMatchNoCase User-Agent "^Nogate.*" bad_bot
+BrowserMatchNoCase User-Agent "^Norbert the Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^NoteworthyBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^NPbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^NPBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^NPBot-.*" bad_bot
+BrowserMatchNoCase User-Agent "^NRCan intranet crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^NSDL_Search_Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^nu_tch-princeton/Nu_tch.*" bad_bot
+BrowserMatchNoCase User-Agent "^nuggetize.com BOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^nuSearch Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^NuSearch Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Nusearch Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Nutch.*" bad_bot
+BrowserMatchNoCase User-Agent "^nutch.*" bad_bot
+BrowserMatchNoCase User-Agent "^nutch1/huntsman.*" bad_bot
+BrowserMatchNoCase User-Agent "^NutchCVS.*" bad_bot
+BrowserMatchNoCase User-Agent "^NutchOrg.*" bad_bot
+BrowserMatchNoCase User-Agent "^NWSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Nymesis.*" bad_bot
+BrowserMatchNoCase User-Agent "^nys-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^ObjectsSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^oBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Obvius external linkcheck.*" bad_bot
+BrowserMatchNoCase User-Agent "^Ocelli.*" bad_bot
+BrowserMatchNoCase User-Agent "^Octopus.*" bad_bot
+BrowserMatchNoCase User-Agent "^ODP entries t_st.*" bad_bot
+BrowserMatchNoCase User-Agent "^oegp v..*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline Explorer.*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline Explorer/1.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline Explorer/1.4.*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline Explorer/1.6.*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline Explorer/1.7.*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline Explorer/1.9.*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline Explorer/2.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline Explorer/2.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline Explorer/2.3.*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline Explorer/2.4.*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline Explorer/2.5.*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline Navigator.*" bad_bot
+BrowserMatchNoCase User-Agent "^Offline.Explorer.*" bad_bot
+BrowserMatchNoCase User-Agent "^OGspider.*" bad_bot
+BrowserMatchNoCase User-Agent "^OmiExplorer_Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^OmniExplorer_Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^OmniFind.*" bad_bot
+BrowserMatchNoCase User-Agent "^omnifind.*" bad_bot
+BrowserMatchNoCase User-Agent "^OmniWeb.*" bad_bot
+BrowserMatchNoCase User-Agent "^OnetSzukaj.*" bad_bot
+BrowserMatchNoCase User-Agent "^online link validator.*" bad_bot
+BrowserMatchNoCase User-Agent "^OOZBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^Openbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Openfind.*" bad_bot
+BrowserMatchNoCase User-Agent "^Openfind data gatherer.*" bad_bot
+BrowserMatchNoCase User-Agent "^OpenIntelligenceData.*" bad_bot
+BrowserMatchNoCase User-Agent "^OpenISearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^OpenLink Virtuoso RDF crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^OpenSearchServer_Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^OpiDig.*" bad_bot
+BrowserMatchNoCase User-Agent "^optidiscover.*" bad_bot
+BrowserMatchNoCase User-Agent "^Oracle Secure Enterprise Search.*" bad_bot
+BrowserMatchNoCase User-Agent "^Oracle Ultra Search.*" bad_bot
+BrowserMatchNoCase User-Agent "^OrangeBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^ORISBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^ornl_crawler_1.*" bad_bot
+BrowserMatchNoCase User-Agent "^ORNL_Mercury.*" bad_bot
+BrowserMatchNoCase User-Agent "^osis-project.jp.*" bad_bot
+BrowserMatchNoCase User-Agent "^OsO.*" bad_bot
+BrowserMatchNoCase User-Agent "^OutfoxBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^OutfoxMelonBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^OWLER-BOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^owsBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^ozelot.*" bad_bot
+BrowserMatchNoCase User-Agent "^P3P Client.*" bad_bot
+BrowserMatchNoCase User-Agent "^page_verifier.*" bad_bot
+BrowserMatchNoCase User-Agent "^PageBitesHyperBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Pagebull.*" bad_bot
+BrowserMatchNoCase User-Agent "^PageDown.*" bad_bot
+BrowserMatchNoCase User-Agent "^PageFetcher.*" bad_bot
+BrowserMatchNoCase User-Agent "^PageGrabber.*" bad_bot
+BrowserMatchNoCase User-Agent "^PagePeeker.*" bad_bot
+BrowserMatchNoCase User-Agent "^PageRank Monitor.*" bad_bot
+BrowserMatchNoCase User-Agent "^pamsnbot.htm.*" bad_bot
+BrowserMatchNoCase User-Agent "^Panopy Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^panscient.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^Pansophica.*" bad_bot
+BrowserMatchNoCase User-Agent "^Papa Foto.*" bad_bot
+BrowserMatchNoCase User-Agent "^PaperLiBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^PaperLiBot/2.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^parasite.*" bad_bot
+BrowserMatchNoCase User-Agent "^parsijoo.*" bad_bot
+BrowserMatchNoCase User-Agent "^Pathtraq.*" bad_bot
+BrowserMatchNoCase User-Agent "^Pattern.*" bad_bot
+BrowserMatchNoCase User-Agent "^Patwebbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^pavuk.*" bad_bot
+BrowserMatchNoCase User-Agent "^PaxleFramework.*" bad_bot
+BrowserMatchNoCase User-Agent "^PBBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^pcBrowser.*" bad_bot
+BrowserMatchNoCase User-Agent "^pd-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^penthesila.*" bad_bot
+BrowserMatchNoCase User-Agent "^perform_crawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^PerMan.*" bad_bot
+BrowserMatchNoCase User-Agent "^PerMan Surfer.*" bad_bot
+BrowserMatchNoCase User-Agent "^personal ultimate crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^PHP version tracker.*" bad_bot
+BrowserMatchNoCase User-Agent "^PHPCrawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^PhpDig.*" bad_bot
+BrowserMatchNoCase User-Agent "^PicoSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^PIENO robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^pipBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^pipeLiner.*" bad_bot
+BrowserMatchNoCase User-Agent "^Pita.*" bad_bot
+BrowserMatchNoCase User-Agent "^pixfinder.*" bad_bot
+BrowserMatchNoCase User-Agent "^PiyushBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^plaNETWORK Bot Search.*" bad_bot
+BrowserMatchNoCase User-Agent "^Plucker.*" bad_bot
+BrowserMatchNoCase User-Agent "^Plukkie.*" bad_bot
+BrowserMatchNoCase User-Agent "^Plumtree 6.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^Pockey.*" bad_bot
+BrowserMatchNoCase User-Agent "^Pockey-GetHTML.*" bad_bot
+BrowserMatchNoCase User-Agent "^PoCoHTTP.*" bad_bot
+BrowserMatchNoCase User-Agent "^pogodak.ba.*" bad_bot
+BrowserMatchNoCase User-Agent "^Pogodak.co.yu.*" bad_bot
+BrowserMatchNoCase User-Agent "^Poirot.*" bad_bot
+BrowserMatchNoCase User-Agent "^polybot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Pompos.*" bad_bot
+BrowserMatchNoCase User-Agent "^Poodle predictor.*" bad_bot
+BrowserMatchNoCase User-Agent "^PopScreenBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^PostPost.*" bad_bot
+BrowserMatchNoCase User-Agent "^PrivacyFinder.*" bad_bot
+BrowserMatchNoCase User-Agent "^ProjectWF-java-test-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^ProPowerBot/2.14.*" bad_bot
+BrowserMatchNoCase User-Agent "^ProWebWalker.*" bad_bot
+BrowserMatchNoCase User-Agent "^Proxem WebSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^proximic.*" bad_bot
+BrowserMatchNoCase User-Agent "^PROXY crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^psbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^PsBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^psbot-page.*" bad_bot
+BrowserMatchNoCase User-Agent "^PSS-Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^psycheclone.*" bad_bot
+BrowserMatchNoCase User-Agent "^pub-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^pucl.*" bad_bot
+BrowserMatchNoCase User-Agent "^pulseBot (pulse Web Miner).*" bad_bot
+BrowserMatchNoCase User-Agent "^Pump.*" bad_bot
+BrowserMatchNoCase User-Agent "^PWeBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Python-urllib.*" bad_bot
+BrowserMatchNoCase User-Agent "^pythonic-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^PythonWikipediaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^q1.*" bad_bot
+BrowserMatchNoCase User-Agent "^QEAVis agent.*" bad_bot
+BrowserMatchNoCase User-Agent "^QFKBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^qualidade.*" bad_bot
+BrowserMatchNoCase User-Agent "^Qualidator.com Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^QuepasaCreep.*" bad_bot
+BrowserMatchNoCase User-Agent "^QueryN Metasearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^QueryN.Metasearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^quest.durato.*" bad_bot
+BrowserMatchNoCase User-Agent "^Quintura-Crw.*" bad_bot
+BrowserMatchNoCase User-Agent "^QunarBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Qweery_robot.txt_CheckBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^QweeryBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^r2iBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^R6_CommentReader.*" bad_bot
+BrowserMatchNoCase User-Agent "^R6_FeedFetcher.*" bad_bot
+BrowserMatchNoCase User-Agent "^R6_VoteReader.*" bad_bot
+BrowserMatchNoCase User-Agent "^RaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Radian6.*" bad_bot
+BrowserMatchNoCase User-Agent "^radian6_linkcheck.*" bad_bot
+BrowserMatchNoCase User-Agent "^Radiation Retriever 1.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^RAMPyBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^RankurBot/Rankur.*" bad_bot
+BrowserMatchNoCase User-Agent "^Rational SiteCheck.*" bad_bot
+BrowserMatchNoCase User-Agent "^RcStartBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^RealDownload.*" bad_bot
+BrowserMatchNoCase User-Agent "^RealDownload/4.0.0.40.*" bad_bot
+BrowserMatchNoCase User-Agent "^RealDownload/4.0.0.41.*" bad_bot
+BrowserMatchNoCase User-Agent "^RealDownload/4.0.0.42.*" bad_bot
+BrowserMatchNoCase User-Agent "^Reaper.*" bad_bot
+BrowserMatchNoCase User-Agent "^REBI-Shoveler.*" bad_bot
+BrowserMatchNoCase User-Agent "^REBI-shoveler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Recorder.*" bad_bot
+BrowserMatchNoCase User-Agent "^RedBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^RedCarpet.*" bad_bot
+BrowserMatchNoCase User-Agent "^ReGet.*" bad_bot
+BrowserMatchNoCase User-Agent "^RepoMonkey.*" bad_bot
+BrowserMatchNoCase User-Agent "^RepoMonkey Bait & Tackle/v1.01.*" bad_bot
+BrowserMatchNoCase User-Agent "^research robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Riddler.*" bad_bot
+BrowserMatchNoCase User-Agent "^RIIGHTBOT/RIIGHT-.*" bad_bot
+BrowserMatchNoCase User-Agent "^RiseNetBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^RiverGlassScanner.*" bad_bot
+BrowserMatchNoCase User-Agent "^RiverglassScanner.*" bad_bot
+BrowserMatchNoCase User-Agent "^RMA.*" bad_bot
+BrowserMatchNoCase User-Agent "^RoboPal.*" bad_bot
+BrowserMatchNoCase User-Agent "^Robosourcer.*" bad_bot
+BrowserMatchNoCase User-Agent "^Robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^ROBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^robotek.*" bad_bot
+BrowserMatchNoCase User-Agent "^robots.*" bad_bot
+BrowserMatchNoCase User-Agent "^Robozilla.*" bad_bot
+BrowserMatchNoCase User-Agent "^rogerBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Rome Client.*" bad_bot
+BrowserMatchNoCase User-Agent "^Rondello.*" bad_bot
+BrowserMatchNoCase User-Agent "^Rotondo.*" bad_bot
+BrowserMatchNoCase User-Agent "^Roverbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^RPT-HTTPClient.*" bad_bot
+BrowserMatchNoCase User-Agent "^rtgibot.*" bad_bot
+BrowserMatchNoCase User-Agent "^RufusBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Runnk online rss reader.*" bad_bot
+BrowserMatchNoCase User-Agent "^Runnk RSS aggregator.*" bad_bot
+BrowserMatchNoCase User-Agent "^s~stremor-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^S2Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SafariBookmarkChecker.*" bad_bot
+BrowserMatchNoCase User-Agent "^SafetyNet Robot 0.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^SaladSpoon/ShopSalad.*" bad_bot
+BrowserMatchNoCase User-Agent "^Sapienti/Indexer.*" bad_bot
+BrowserMatchNoCase User-Agent "^SBIder.*" bad_bot
+BrowserMatchNoCase User-Agent "^SBL-BOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^SCFCrawler/Nutch-1.8.*" bad_bot
+BrowserMatchNoCase User-Agent "^Scich.*" bad_bot
+BrowserMatchNoCase User-Agent "^ScientificCommons.org.*" bad_bot
+BrowserMatchNoCase User-Agent "^ScollSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^ScooperBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Scooter.*" bad_bot
+BrowserMatchNoCase User-Agent "^ScoutJet.*" bad_bot
+BrowserMatchNoCase User-Agent "^ScrapeBox.*" bad_bot
+BrowserMatchNoCase User-Agent "^Scrapy.*" bad_bot
+BrowserMatchNoCase User-Agent "^SCrawlTest.*" bad_bot
+BrowserMatchNoCase User-Agent "^Scrubby.*" bad_bot
+BrowserMatchNoCase User-Agent "^scSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Scumbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Search Publisher.*" bad_bot
+BrowserMatchNoCase User-Agent "^search x-bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Search-Channel.*" bad_bot
+BrowserMatchNoCase User-Agent "^Search-Engine-Studio.*" bad_bot
+BrowserMatchNoCase User-Agent "^search.KumKie.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^search.msn.com/msnbot.htm.*" bad_bot
+BrowserMatchNoCase User-Agent "^search.updated.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^search.usgs.gov.*" bad_bot
+BrowserMatchNoCase User-Agent "^Searcharoo.NET.*" bad_bot
+BrowserMatchNoCase User-Agent "^SearchBlox.*" bad_bot
+BrowserMatchNoCase User-Agent "^searchbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SearchBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^searchengine.*" bad_bot
+BrowserMatchNoCase User-Agent "^searchhippo.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^SearchIt-Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^searchmarking.*" bad_bot
+BrowserMatchNoCase User-Agent "^searchmarks.*" bad_bot
+BrowserMatchNoCase User-Agent "^searchmee_v.*" bad_bot
+BrowserMatchNoCase User-Agent "^Searchmee! Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^searchmining.*" bad_bot
+BrowserMatchNoCase User-Agent "^SearchnowBot_v1.*" bad_bot
+BrowserMatchNoCase User-Agent "^searchpreview.*" bad_bot
+BrowserMatchNoCase User-Agent "^SearchSpider.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^SearQuBot/SearQuBot v1.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^SEB Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Seekbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Seeker.lookseek.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^SeeqBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^seeqpod-vertical-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Selflinkchecker.*" bad_bot
+BrowserMatchNoCase User-Agent "^Semager.*" bad_bot
+BrowserMatchNoCase User-Agent "^semanticdiscovery.*" bad_bot
+BrowserMatchNoCase User-Agent "^Semantifire1.*" bad_bot
+BrowserMatchNoCase User-Agent "^semisearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^SemrushBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SEOENGWorldBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SeznamBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SeznamBot/2.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^SeznamBot/3.2-test1.*" bad_bot
+BrowserMatchNoCase User-Agent "^ShablastBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^ShadowWebAnalyzer.*" bad_bot
+BrowserMatchNoCase User-Agent "^Shareaza.*" bad_bot
+BrowserMatchNoCase User-Agent "^Shelob.*" bad_bot
+BrowserMatchNoCase User-Agent "^sherlock.*" bad_bot
+BrowserMatchNoCase User-Agent "^ShopWiki.*" bad_bot
+BrowserMatchNoCase User-Agent "^ShowLinks.*" bad_bot
+BrowserMatchNoCase User-Agent "^ShowyouBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^siclab.*" bad_bot
+BrowserMatchNoCase User-Agent "^silk.*" bad_bot
+BrowserMatchNoCase User-Agent "^Siphon.*" bad_bot
+BrowserMatchNoCase User-Agent "^SiteArchive.*" bad_bot
+BrowserMatchNoCase User-Agent "^SiteCheck-sitecrawl by Siteimprove.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^sitecheck.internetseer.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^SiteFinder.*" bad_bot
+BrowserMatchNoCase User-Agent "^SiteGuardBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SiteOrbiter.*" bad_bot
+BrowserMatchNoCase User-Agent "^SiteSnagger.*" bad_bot
+BrowserMatchNoCase User-Agent "^SiteSucker.*" bad_bot
+BrowserMatchNoCase User-Agent "^SiteSweeper.*" bad_bot
+BrowserMatchNoCase User-Agent "^SiteXpert.*" bad_bot
+BrowserMatchNoCase User-Agent "^SkimBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SkimWordsBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SkreemRBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Skywalker.*" bad_bot
+BrowserMatchNoCase User-Agent "^Sleipnir.*" bad_bot
+BrowserMatchNoCase User-Agent "^slow-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^SlySearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^smart-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^SmartDownload.*" bad_bot
+BrowserMatchNoCase User-Agent "^SmartDownload/1.2.76 (Win32; Apr 1 1999)" bad_bot
+BrowserMatchNoCase User-Agent "^SmartDownload/1.2.77 (Win32; Aug 17 1999)" bad_bot
+BrowserMatchNoCase User-Agent "^SmartDownload/1.2.77 (Win32; Feb 1 2000)" bad_bot
+BrowserMatchNoCase User-Agent "^SmartDownload/1.2.77 (Win32; Jun 19 2001)" bad_bot
+BrowserMatchNoCase User-Agent "^Smarte Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^smartwit.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^Snake.*" bad_bot
+BrowserMatchNoCase User-Agent "^snap.com beta crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Snapbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SnapPreviewBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Snappy.*" bad_bot
+BrowserMatchNoCase User-Agent "^snookit/Snookit.*" bad_bot
+BrowserMatchNoCase User-Agent "^Snooper/b97_01.*" bad_bot
+BrowserMatchNoCase User-Agent "^Snoopy.*" bad_bot
+BrowserMatchNoCase User-Agent "^SocSciBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SOFT411 Directory.*" bad_bot
+BrowserMatchNoCase User-Agent "^sogou.*" bad_bot
+BrowserMatchNoCase User-Agent "^Sogou.*" bad_bot
+BrowserMatchNoCase User-Agent "^sohu agent.*" bad_bot
+BrowserMatchNoCase User-Agent "^sohu-search.*" bad_bot
+BrowserMatchNoCase User-Agent "^Sokitomi crawl.*" bad_bot
+BrowserMatchNoCase User-Agent "^Solbot/1.0 LWP/5.07.*" bad_bot
+BrowserMatchNoCase User-Agent "^sootle.*" bad_bot
+BrowserMatchNoCase User-Agent "^Sosospider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Space Bison.*" bad_bot
+BrowserMatchNoCase User-Agent "^Space Fung.*" bad_bot
+BrowserMatchNoCase User-Agent "^SpaceBison.*" bad_bot
+BrowserMatchNoCase User-Agent "^SpankBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^spanner.*" bad_bot
+BrowserMatchNoCase User-Agent "^Spanner/1.0 (Linux 2.0.27 i586)" bad_bot
+BrowserMatchNoCase User-Agent "^Spatineo Monitor Controller.*" bad_bot
+BrowserMatchNoCase User-Agent "^Spatineo Serval Controller.*" bad_bot
+BrowserMatchNoCase User-Agent "^Spatineo Serval GetMapBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^special_archiver.*" bad_bot
+BrowserMatchNoCase User-Agent "^Speedy Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^SpeedySpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Sphere Scout.*" bad_bot
+BrowserMatchNoCase User-Agent "^Sphere Scout&v.*" bad_bot
+BrowserMatchNoCase User-Agent "^Sphider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Sphider2.*" bad_bot
+BrowserMatchNoCase User-Agent "^spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Spider.TerraNautic.net.*" bad_bot
+BrowserMatchNoCase User-Agent "^SpiderEngine.*" bad_bot
+BrowserMatchNoCase User-Agent "^SpiderKU.*" bad_bot
+BrowserMatchNoCase User-Agent "^SpiderMan.*" bad_bot
+BrowserMatchNoCase User-Agent "^Spinn3r.*" bad_bot
+BrowserMatchNoCase User-Agent "^Spinne.*" bad_bot
+BrowserMatchNoCase User-Agent "^sportcrew-Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^spyder3.microsys.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^SQ Webscanner.*" bad_bot
+BrowserMatchNoCase User-Agent "^sqlmap.*" bad_bot
+BrowserMatchNoCase User-Agent "^Squid-Prefetch.*" bad_bot
+BrowserMatchNoCase User-Agent "^SquidClamAV_Redirector.*" bad_bot
+BrowserMatchNoCase User-Agent "^Sqworm.*" bad_bot
+BrowserMatchNoCase User-Agent "^SrevBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^sslbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SSM Agent.*" bad_bot
+BrowserMatchNoCase User-Agent "^StackRambler.*" bad_bot
+BrowserMatchNoCase User-Agent "^StarDownloader.*" bad_bot
+BrowserMatchNoCase User-Agent "^statbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^statcrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^statedept-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Steeler.*" bad_bot
+BrowserMatchNoCase User-Agent "^STEGMANN-Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^stero.*" bad_bot
+BrowserMatchNoCase User-Agent "^Stripper.*" bad_bot
+BrowserMatchNoCase User-Agent "^Stumbler.*" bad_bot
+BrowserMatchNoCase User-Agent "^suchclip.*" bad_bot
+BrowserMatchNoCase User-Agent "^Sucker.*" bad_bot
+BrowserMatchNoCase User-Agent "^SumeetBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SumitBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SummizeBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SummizeFeedReader.*" bad_bot
+BrowserMatchNoCase User-Agent "^Sunrise XP.*" bad_bot
+BrowserMatchNoCase User-Agent "^SuperBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^superbot.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^SuperBot/3.0 (Win32)" bad_bot
+BrowserMatchNoCase User-Agent "^SuperBot/3.1 (Win32)" bad_bot
+BrowserMatchNoCase User-Agent "^SuperHTTP.*" bad_bot
+BrowserMatchNoCase User-Agent "^SuperLumin Downloader.*" bad_bot
+BrowserMatchNoCase User-Agent "^SuperPagesBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Supybot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SURF.*" bad_bot
+BrowserMatchNoCase User-Agent "^Surfbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SurfControl.*" bad_bot
+BrowserMatchNoCase User-Agent "^SurveyBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^suzuran.*" bad_bot
+BrowserMatchNoCase User-Agent "^SWEBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^swish-e.*" bad_bot
+BrowserMatchNoCase User-Agent "^SygolBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^SynapticWalker.*" bad_bot
+BrowserMatchNoCase User-Agent "^Syntryx ANT Scout Chassis Pheromone.*" bad_bot
+BrowserMatchNoCase User-Agent "^SystemSearch-robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Szukacz.*" bad_bot
+BrowserMatchNoCase User-Agent "^Szukacz/1.4.*" bad_bot
+BrowserMatchNoCase User-Agent "^T-H-U-N-D-E-R-S-T-O-N-E.*" bad_bot
+BrowserMatchNoCase User-Agent "^Tailrank.*" bad_bot
+BrowserMatchNoCase User-Agent "^tAkeOut.*" bad_bot
+BrowserMatchNoCase User-Agent "^Talkro Web-Shot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TAMU_CRAWLER.*" bad_bot
+BrowserMatchNoCase User-Agent "^TapuzBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Tarantula.*" bad_bot
+BrowserMatchNoCase User-Agent "^targetblaster.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^TargetYourNews.com bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TAUSDataBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^taxinomiabot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TeamSoft WinInet Component.*" bad_bot
+BrowserMatchNoCase User-Agent "^Tecomi Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TeezirBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Teleport.*" bad_bot
+BrowserMatchNoCase User-Agent "^Teleport Pro.*" bad_bot
+BrowserMatchNoCase User-Agent "^Teleport Pro/1.29.*" bad_bot
+BrowserMatchNoCase User-Agent "^Teleport Pro/1.29.1590.*" bad_bot
+BrowserMatchNoCase User-Agent "^Teleport Pro/1.29.1634.*" bad_bot
+BrowserMatchNoCase User-Agent "^Teleport Pro/1.29.1718.*" bad_bot
+BrowserMatchNoCase User-Agent "^Teleport Pro/1.29.1820.*" bad_bot
+BrowserMatchNoCase User-Agent "^Teleport Pro/1.29.1847.*" bad_bot
+BrowserMatchNoCase User-Agent "^TeleportPro.*" bad_bot
+BrowserMatchNoCase User-Agent "^Telesoft.*" bad_bot
+BrowserMatchNoCase User-Agent "^Teradex Mapper.*" bad_bot
+BrowserMatchNoCase User-Agent "^TERAGRAM_CRAWLER.*" bad_bot
+BrowserMatchNoCase User-Agent "^TerrawizBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TestBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^testbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^testBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^testing of bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TextBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^thatrobotsite.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^The Dyslexalizer.*" bad_bot
+BrowserMatchNoCase User-Agent "^The Intraformant.*" bad_bot
+BrowserMatchNoCase User-Agent "^The.Intraformant.*" bad_bot
+BrowserMatchNoCase User-Agent "^TheNomad.*" bad_bot
+BrowserMatchNoCase User-Agent "^Theophrastus.*" bad_bot
+BrowserMatchNoCase User-Agent "^theusefulbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TheUsefulbot_.*" bad_bot
+BrowserMatchNoCase User-Agent "^ThumbBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Thumbnail.CZ robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^thumbshots-de-bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^tigerbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TightTwatBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TinEye.*" bad_bot
+BrowserMatchNoCase User-Agent "^Titan.*" bad_bot
+BrowserMatchNoCase User-Agent "^TITAN.*" bad_bot
+BrowserMatchNoCase User-Agent "^to-dress_ru_bot_.*" bad_bot
+BrowserMatchNoCase User-Agent "^to-night-Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^toCrawl/UrlDispatcher.*" bad_bot
+BrowserMatchNoCase User-Agent "^Topicalizer.*" bad_bot
+BrowserMatchNoCase User-Agent "^topicblogs.*" bad_bot
+BrowserMatchNoCase User-Agent "^Toplistbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TopServer PHP.*" bad_bot
+BrowserMatchNoCase User-Agent "^topyx-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Touche.*" bad_bot
+BrowserMatchNoCase User-Agent "^TourlentaScanner.*" bad_bot
+BrowserMatchNoCase User-Agent "^TPSystem.*" bad_bot
+BrowserMatchNoCase User-Agent "^TRAAZI.*" bad_bot
+BrowserMatchNoCase User-Agent "^TranSGeniKBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^travel-search.*" bad_bot
+BrowserMatchNoCase User-Agent "^TravelBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TravelLazerBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Treezy.*" bad_bot
+BrowserMatchNoCase User-Agent "^TREX.*" bad_bot
+BrowserMatchNoCase User-Agent "^TridentSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Trovator.*" bad_bot
+BrowserMatchNoCase User-Agent "^True_Robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^tScholarsBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TSM Translation-Search-Machine.*" bad_bot
+BrowserMatchNoCase User-Agent "^TsWebBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TulipChain.*" bad_bot
+BrowserMatchNoCase User-Agent "^turingos.*" bad_bot
+BrowserMatchNoCase User-Agent "^TurnitinBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TurnitinBot/1.5.*" bad_bot
+BrowserMatchNoCase User-Agent "^TutorGigBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TweetedTimes Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TweetmemeBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TwengaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TwengaBot-Discover.*" bad_bot
+BrowserMatchNoCase User-Agent "^Twiceler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Twikle.*" bad_bot
+BrowserMatchNoCase User-Agent "^twinuffbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Twisted PageGetter.*" bad_bot
+BrowserMatchNoCase User-Agent "^Twitturls.*" bad_bot
+BrowserMatchNoCase User-Agent "^Twitturly .*" bad_bot
+BrowserMatchNoCase User-Agent "^TygoBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^TygoProwler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Typhoeus.*" bad_bot
+BrowserMatchNoCase User-Agent "^U.S. Government Printing Office.*" bad_bot
+BrowserMatchNoCase User-Agent "^uberbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^ucb-nutch.*" bad_bot
+BrowserMatchNoCase User-Agent "^UdmSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^UFAM-crawler-.*" bad_bot
+BrowserMatchNoCase User-Agent "^Ultraseek.*" bad_bot
+BrowserMatchNoCase User-Agent "^UnChaos.*" bad_bot
+BrowserMatchNoCase User-Agent "^unchaos_crawler_.*" bad_bot
+BrowserMatchNoCase User-Agent "^UnisterBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Unitek UniEngine.*" bad_bot
+BrowserMatchNoCase User-Agent "^UniversalSearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^UnwindFetchor.*" bad_bot
+BrowserMatchNoCase User-Agent "^UofTDB_experiment.*" bad_bot
+BrowserMatchNoCase User-Agent "^updated.*" bad_bot
+BrowserMatchNoCase User-Agent "^URL Control.*" bad_bot
+BrowserMatchNoCase User-Agent "^url_gather.*" bad_bot
+BrowserMatchNoCase User-Agent "^URL-Checker.*" bad_bot
+BrowserMatchNoCase User-Agent "^URLAppendBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^URLBlaze.*" bad_bot
+BrowserMatchNoCase User-Agent "^urlchecker.*" bad_bot
+BrowserMatchNoCase User-Agent "^urlck/1.2.3.*" bad_bot
+BrowserMatchNoCase User-Agent "^UrlDispatcher.*" bad_bot
+BrowserMatchNoCase User-Agent "^URLSpiderPro.*" bad_bot
+BrowserMatchNoCase User-Agent "^URLy Warning.*" bad_bot
+BrowserMatchNoCase User-Agent "^URLy.Warning.*" bad_bot
+BrowserMatchNoCase User-Agent "^USAF AFKN K2SPIDER.*" bad_bot
+BrowserMatchNoCase User-Agent "^usasearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^USS-Cosmix.*" bad_bot
+BrowserMatchNoCase User-Agent "^USyd-NLP-Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Vacobot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Vacuum.*" bad_bot
+BrowserMatchNoCase User-Agent "^VadixBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Vagabondo.*" bad_bot
+BrowserMatchNoCase User-Agent "^Validator.*" bad_bot
+BrowserMatchNoCase User-Agent "^Valkyrie/1.0 libwww-perl/0.40" bad_bot
+BrowserMatchNoCase User-Agent "^vBSEO.*" bad_bot
+BrowserMatchNoCase User-Agent "^VCI.*" bad_bot
+BrowserMatchNoCase User-Agent "^VCI WebViewer VCI WebViewer Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^VerbstarBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^VeriCiteCrawler/Nutch-2.2.1" bad_bot
+BrowserMatchNoCase User-Agent "^Verifactrola.*" bad_bot
+BrowserMatchNoCase User-Agent "^Verity-URL-Gateway.*" bad_bot
+BrowserMatchNoCase User-Agent "^Vermut.*" bad_bot
+BrowserMatchNoCase User-Agent "^vermut.*" bad_bot
+BrowserMatchNoCase User-Agent "^versus crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^versus.integis.ch.*" bad_bot
+BrowserMatchNoCase User-Agent "^viasarchivinginformation.html.*" bad_bot
+BrowserMatchNoCase User-Agent "^VIP.*" bad_bot
+BrowserMatchNoCase User-Agent "^VIPr.*" bad_bot
+BrowserMatchNoCase User-Agent "^virus_detector.*" bad_bot
+BrowserMatchNoCase User-Agent "^virus-detector.*" bad_bot
+BrowserMatchNoCase User-Agent "^VisBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Vishal For CLIA.*" bad_bot
+BrowserMatchNoCase User-Agent "^VisWeb.*" bad_bot
+BrowserMatchNoCase User-Agent "^Vital Search'n Urchin.*" bad_bot
+BrowserMatchNoCase User-Agent "^vlad.*" bad_bot
+BrowserMatchNoCase User-Agent "^vlsearch.*" bad_bot
+BrowserMatchNoCase User-Agent "^VMBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^VocusBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^VoidEYE.*" bad_bot
+BrowserMatchNoCase User-Agent "^VoilaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Vortex.*" bad_bot
+BrowserMatchNoCase User-Agent "^voyager-hc.*" bad_bot
+BrowserMatchNoCase User-Agent "^voyager-partner-deep.*" bad_bot
+BrowserMatchNoCase User-Agent "^voyager.*" bad_bot
+BrowserMatchNoCase User-Agent "^VSE.*" bad_bot
+BrowserMatchNoCase User-Agent "^vspider.*" bad_bot
+BrowserMatchNoCase User-Agent "^W3C_Unicorn.*" bad_bot
+BrowserMatchNoCase User-Agent "^W3C-WebCon.*" bad_bot
+BrowserMatchNoCase User-Agent "^w3m.*" bad_bot
+BrowserMatchNoCase User-Agent "^w3search.*" bad_bot
+BrowserMatchNoCase User-Agent "^wacbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^wastrix.*" bad_bot
+BrowserMatchNoCase User-Agent "^Water Conserve Portal.*" bad_bot
+BrowserMatchNoCase User-Agent "^Water Conserve Spider.*" bad_bot
+BrowserMatchNoCase User-Agent "^WatzBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^wauuu engine/Wauuu.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wavefire.*" bad_bot
+BrowserMatchNoCase User-Agent "^Waypath.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wazzup.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wazzup1.0.4800.*" bad_bot
+BrowserMatchNoCase User-Agent "^wbdbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Web CEO Online robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^web crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Web Downloader.*" bad_bot
+BrowserMatchNoCase User-Agent "^Web Image Collector.*" bad_bot
+BrowserMatchNoCase User-Agent "^Web Link Validator.*" bad_bot
+BrowserMatchNoCase User-Agent "^Web Magnet.*" bad_bot
+BrowserMatchNoCase User-Agent "^Web Site Downloader.*" bad_bot
+BrowserMatchNoCase User-Agent "^Web Sucker.*" bad_bot
+BrowserMatchNoCase User-Agent "^web-agent.*" bad_bot
+BrowserMatchNoCase User-Agent "^Web-Sniffer.*" bad_bot
+BrowserMatchNoCase User-Agent "^Web.Image.Collector.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebaltBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebAuto.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebAuto/3.40.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebBandit.*" bad_bot
+BrowserMatchNoCase User-Agent "^webbandit.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebBandit/3.50.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebBOT.*" bad_bot
+BrowserMatchNoCase User-Agent "^webbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^webbul-bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCapture.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCapture 2.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^webcheck 1.*" bad_bot
+BrowserMatchNoCase User-Agent "^Webclipping.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^webcollage.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCopier.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCopier v.2.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCopier v2.5.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCopier v2.6.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCopier v2.7a.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCopier v2.8.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCopier v3.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCopier v3.0.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCopier v3.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCopier v3.2a.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCopy.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCorp.*" bad_bot
+BrowserMatchNoCase User-Agent "^webcrawl.net.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^webcrawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebCrawler/3.0 Robot libwww/5.0a.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebDownloader for X.*" bad_bot
+BrowserMatchNoCase User-Agent "^Webdup.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebEMailExtrac.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebEnhancer.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebFetch.*" bad_bot
+BrowserMatchNoCase User-Agent "^webfetch.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebFetcher/0.8,.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebGather.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebGo IS.*" bad_bot
+BrowserMatchNoCase User-Agent "^webGobbler.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebImages.*" bad_bot
+BrowserMatchNoCase User-Agent "^Webinator-search2.fasthealth.com.*" bad_bot
+BrowserMatchNoCase User-Agent "^Webinator-WBI.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebIndex.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebIndexer.*" bad_bot
+BrowserMatchNoCase User-Agent "^weblayers/0.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebLeacher.*" bad_bot
+BrowserMatchNoCase User-Agent "^WeblexBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebLinker/0.0 libwww-perl/0.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^webLyzard.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebmasterCoffee.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebmasterWorld Extractor.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebmasterWorldForumBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebMiner.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebMoose/0.0.0000.*" bad_bot
+BrowserMatchNoCase User-Agent "^WeBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebPix.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebReaper.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebRipper.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebSauger.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebSauger 1.20b.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebSauger 1.20j.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebSauger 1.20k.*" bad_bot
+BrowserMatchNoCase User-Agent "^Webscan.*" bad_bot
+BrowserMatchNoCase User-Agent "^websearchbench.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebSite.*" bad_bot
+BrowserMatchNoCase User-Agent "^Website Downloader.*" bad_bot
+BrowserMatchNoCase User-Agent "^Website Explorer.*" bad_bot
+BrowserMatchNoCase User-Agent "^Website eXtractor.*" bad_bot
+BrowserMatchNoCase User-Agent "^Website Quester.*" bad_bot
+BrowserMatchNoCase User-Agent "^Website.Quester.*" bad_bot
+BrowserMatchNoCase User-Agent "^websitemirror.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebSpear.*" bad_bot
+BrowserMatchNoCase User-Agent "^websphinx.test.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Webster.*" bad_bot
+BrowserMatchNoCase User-Agent "^Webster Pro.*" bad_bot
+BrowserMatchNoCase User-Agent "^Webster.Pro.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebStripper.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebStripper/2.03.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebStripper/2.10.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebStripper/2.12.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebStripper/2.13.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebStripper/2.15.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebStripper/2.16.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebStripper/2.19.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebTrafficExpress.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebTrends Link Analyzer.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebVac.*" bad_bot
+BrowserMatchNoCase User-Agent "^webwalk.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebWalker.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebWalker/1.10.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebWasher.*" bad_bot
+BrowserMatchNoCase User-Agent "^Webwasher.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebWatch.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebWhacker.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebXM.*" bad_bot
+BrowserMatchNoCase User-Agent "^WebZIP.*" bad_bot
+BrowserMatchNoCase User-Agent "^Weddings.info Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^wenbin/search.*" bad_bot
+BrowserMatchNoCase User-Agent "^WEP Search.*" bad_bot
+BrowserMatchNoCase User-Agent "^WEPA.*" bad_bot
+BrowserMatchNoCase User-Agent "^WeRelateBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wget.*" bad_bot
+BrowserMatchNoCase User-Agent "^wget.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wget/1.4.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wget/1.5.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wget/1.5.3.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wget/1.6.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wget/1.7.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wget/1.8.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wget/1.8.1.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wget/1.8.1+cvs.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wget/1.8.2.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wget/1.9-beta.*" bad_bot
+BrowserMatchNoCase User-Agent "^Whacker.*" bad_bot
+BrowserMatchNoCase User-Agent "^Whirlpool Web Engine.*" bad_bot
+BrowserMatchNoCase User-Agent "^WhoWhere Robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Widow.*" bad_bot
+BrowserMatchNoCase User-Agent "^WikiaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wikio.*" bad_bot
+BrowserMatchNoCase User-Agent "^wikiwix-bot-.*" bad_bot
+BrowserMatchNoCase User-Agent "^WinHTTP Example.*" bad_bot
+BrowserMatchNoCase User-Agent "^WinHttp.WinHttpRequest..*" bad_bot
+BrowserMatchNoCase User-Agent "^WIRE.*" bad_bot
+BrowserMatchNoCase User-Agent "^wired-digital-newsbot/1.5.*" bad_bot
+BrowserMatchNoCase User-Agent "^WISEbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^WISENutbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^wish-la.*" bad_bot
+BrowserMatchNoCase User-Agent "^wish-project.*" bad_bot
+BrowserMatchNoCase User-Agent "^wisponbot.*" bad_bot
+BrowserMatchNoCase User-Agent "^WMCAI-robot.*" bad_bot
+BrowserMatchNoCase User-Agent "^wminer.*" bad_bot
+BrowserMatchNoCase User-Agent "^WMSBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^woriobot.*" bad_bot
+BrowserMatchNoCase User-Agent "^worldshop.*" bad_bot
+BrowserMatchNoCase User-Agent "^WorQmada.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wotbox.*" bad_bot
+BrowserMatchNoCase User-Agent "^wume_crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^WWW Collector.*" bad_bot
+BrowserMatchNoCase User-Agent "^WWW-Collector-E.*" bad_bot
+BrowserMatchNoCase User-Agent "^WWW-Mechanize.*" bad_bot
+BrowserMatchNoCase User-Agent "^WWWOFFLE.*" bad_bot
+BrowserMatchNoCase User-Agent "^wwwrobot.*" bad_bot
+BrowserMatchNoCase User-Agent "^wwwster.*" bad_bot
+BrowserMatchNoCase User-Agent "^WWWWanderer v3.0.*" bad_bot
+BrowserMatchNoCase User-Agent "^wwwxref.*" bad_bot
+BrowserMatchNoCase User-Agent "^Wysigot.*" bad_bot
+BrowserMatchNoCase User-Agent "^X-clawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^X-crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Xaldon.*" bad_bot
+BrowserMatchNoCase User-Agent "^Xaldon WebSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Xaldon WebSpider 2.5.b3.*" bad_bot
+BrowserMatchNoCase User-Agent "^Xaldon_WebSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Xenu.*" bad_bot
+BrowserMatchNoCase User-Agent "^Xenu's.*" bad_bot
+BrowserMatchNoCase User-Agent "^Xenu's Link Sleuth 1.1c.*" bad_bot
+BrowserMatchNoCase User-Agent "^Xerka MetaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Xerka WebBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^XGET/0.7.*" bad_bot
+BrowserMatchNoCase User-Agent "^xirq.*" bad_bot
+BrowserMatchNoCase User-Agent "^XmarksFetch.*" bad_bot
+BrowserMatchNoCase User-Agent "^xqrobot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Y!J-BRI.*" bad_bot
+BrowserMatchNoCase User-Agent "^Y!J-BRJ/YATS crawler.*" bad_bot
+BrowserMatchNoCase User-Agent "^Y!J-BRW.*" bad_bot
+BrowserMatchNoCase User-Agent "^Y!J-BSC.*" bad_bot
+BrowserMatchNoCase User-Agent "^Y!J-PSC.*" bad_bot
+BrowserMatchNoCase User-Agent "^Y!J-SRD.*" bad_bot
+BrowserMatchNoCase User-Agent "^Y!J.*" bad_bot
+BrowserMatchNoCase User-Agent "^Y!TunnelPro.*" bad_bot
+BrowserMatchNoCase User-Agent "^yacy.net.*" bad_bot
+BrowserMatchNoCase User-Agent "^yacybot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Yandex.*" bad_bot
+BrowserMatchNoCase User-Agent "^YandexBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^YandexSomething.*" bad_bot
+BrowserMatchNoCase User-Agent "^Yanga WorldSearch Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^yarienavoir.net.*" bad_bot
+BrowserMatchNoCase User-Agent "^Yasaklibot.*" bad_bot
+BrowserMatchNoCase User-Agent "^yBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^YebolBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^yellowJacket.*" bad_bot
+BrowserMatchNoCase User-Agent "^yes.*" bad_bot
+BrowserMatchNoCase User-Agent "^YesupBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Yeti.*" bad_bot
+BrowserMatchNoCase User-Agent "^YioopBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^yolinkBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^yoogliFetchAgent.*" bad_bot
+BrowserMatchNoCase User-Agent "^Yoono.*" bad_bot
+BrowserMatchNoCase User-Agent "^yoono.*" bad_bot
+BrowserMatchNoCase User-Agent "^Yoriwa.*" bad_bot
+BrowserMatchNoCase User-Agent "^YottaCars_Bot.*" bad_bot
+BrowserMatchNoCase User-Agent "^you-dir.*" bad_bot
+BrowserMatchNoCase User-Agent "^Z-Add Link Checker.*" bad_bot
+BrowserMatchNoCase User-Agent "^zagrebin.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zao.*" bad_bot
+BrowserMatchNoCase User-Agent "^zedzo.digest.*" bad_bot
+BrowserMatchNoCase User-Agent "^zedzo.validate.*" bad_bot
+BrowserMatchNoCase User-Agent "^zermelo.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 11389 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 11652 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 18018 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 26378 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 30747 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 32297 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 39206 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 41641 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 44238 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 51070 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 51674 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 51837 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 63567 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 6694 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 82016 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 82900 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 84842 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 90872 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 94934 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 95245 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 95351 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus 97371 Webster Pro V2.9 Win32.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zeus Link Scout.*" bad_bot
+BrowserMatchNoCase User-Agent "^zibber-v.*" bad_bot
+BrowserMatchNoCase User-Agent "^zimeno.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zing-BottaBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^ZipppBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^ZoomSpider.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zotag Search.*" bad_bot
+BrowserMatchNoCase User-Agent "^ZuiBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^ZumBot.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zyborg.*" bad_bot
+BrowserMatchNoCase User-Agent "^ZyBorg.*" bad_bot
+BrowserMatchNoCase User-Agent "^Zyte.*" bad_bot
+<Limit GET POST PUT>
+  Order Allow,Deny
+  Allow from all
+  Deny from env=bad_bot
+</Limit>
+</IfModule>
+
+##############################################
+##### END BOT PREVENTION BY HAUPT-PASCAL #####
+##############################################
