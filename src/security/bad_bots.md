@@ -1,4 +1,4 @@
-```shell
+```bash
 <IfModule mod_setenvif.c>
 SetEnvIfNoCase User-Agent "^12soso.*" bad_bot
 SetEnvIfNoCase User-Agent "^192.comAgent.*" bad_bot

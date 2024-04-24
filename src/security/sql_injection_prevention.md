@@ -1,3 +1,4 @@
+```bash
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
@@ -20,3 +21,4 @@ RewriteCond %{QUERY_STRING} ^.*(request|select|insert|union|declare).* [NC]
 RewriteCond %{HTTP_COOKIE} !^.*WordPress_logged_in_.*$
 RewriteRule ^(.*)$ - [F,L]
 </IfModule>
+```

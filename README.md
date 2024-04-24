@@ -6,14 +6,14 @@ This is a repository with all the usless parts of a .htaccess file. From redirec
 
 ## Table of Contents
 - ### [Redirections and Rewrites](https://github.com/haupt-pascal/htaccess?tab=readme-ov-file#redirections-and-rewrites)
-    - [Redirect to a specific domain with 301](https://github.com/haupt-pascal/htaccess/blob/main/src/rewrites/301_redirect.txt)
-    - [Redirect to a specific domain with 302](https://github.com/haupt-pascal/htaccess/blob/main/src/rewrites/302_redirect.txt)
-    - [Redirect from non-www to www](https://github.com/haupt-pascal/htaccess/blob/main/src/rewrites/non_wwww_www.txt)
-    - [Redirect from www to non-www](https://github.com/haupt-pascal/htaccess/blob/main/src/rewrites/wwww_non_www.txt)
-    - [Force HTTPS Connection](https://github.com/haupt-pascal/htaccess/blob/main/src/rewrites/force_https.txt)
+    - [Redirect to a specific domain with 301](https://github.com/haupt-pascal/htaccess/blob/main/src/rewrites/301_redirect.md)
+    - [Redirect to a specific domain with 302](https://github.com/haupt-pascal/htaccess/blob/main/src/rewrites/302_redirect.md)
+    - [Redirect from non-www to www](https://github.com/haupt-pascal/htaccess/blob/main/src/rewrites/non_wwww_www.md)
+    - [Redirect from www to non-www](https://github.com/haupt-pascal/htaccess/blob/main/src/rewrites/wwww_non_www.md)
+    - [Force HTTPS Connection](https://github.com/haupt-pascal/htaccess/blob/main/src/rewrites/force_https.md)
 
 - ### [Security and Privacy](https://github.com/haupt-pascal/htaccess?tab=readme-ov-file#security-and-privacy)
-    - [SQL Injection Prevention](https://github.com/haupt-pascal/htaccess/blob/main/src/security/sql_injection_prevention.txt)
+    - [SQL Injection Prevention](https://github.com/haupt-pascal/htaccess/blob/main/src/security/sql_injection_prevention.md)
     - [Block a list of bad Bots](https://github.com/haupt-pascal/htaccess/blob/main/src/security/bad_bots.md)
 
 ## Contributing & Requests
