@@ -1,7 +1,4 @@
-##############################################
-##### BAD BOT PREVENTION BY HAUPT-PASCAL #####
-##############################################
-
+```shell
 <IfModule mod_setenvif.c>
 SetEnvIfNoCase User-Agent "^12soso.*" bad_bot
 SetEnvIfNoCase User-Agent "^192.comAgent.*" bad_bot
@@ -1826,7 +1823,4 @@ SetEnvIfNoCase User-Agent "^Zyte.*" bad_bot
   Deny from env=bad_bot
 </Limit>
 </IfModule>
-
-##############################################
-##### END BOT PREVENTION BY HAUPT-PASCAL #####
-##############################################
+```
