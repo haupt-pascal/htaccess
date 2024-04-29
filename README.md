@@ -22,7 +22,7 @@ This is a repository with all the usless parts of a .htaccess file. From redirec
 - ### [Performance](https://github.com/haupt-pascal/htaccess?tab=readme-ov-file#performance)
     - [Compress Text Files](https://github.com/haupt-pascal/htaccess/blob/main/src/performance/compress_text_files.md)
     - [Set expire headers](https://github.com/haupt-pascal/htaccess/blob/main/src/performance/set_expire_headers.md)
-    - [Disable ETags](https://github.com/haupt-pascal/htaccess/blob/main/src/performance/disable_etags.md)
+    - [Disable ETags](https://github.com/haupt-pascal/htaccess/blob/main/src/performance/deactivate_etags.md)
 
 ## Contributing & Requests
 
