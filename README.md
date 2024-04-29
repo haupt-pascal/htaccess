@@ -15,6 +15,9 @@ This is a repository with all the usless parts of a .htaccess file. From redirec
 - ### [Security and Privacy](https://github.com/haupt-pascal/htaccess?tab=readme-ov-file#security-and-privacy)
     - [SQL Injection Prevention](https://github.com/haupt-pascal/htaccess/blob/main/src/security/sql_injection_prevention.md)
     - [Block a list of bad Bots](https://github.com/haupt-pascal/htaccess/blob/main/src/security/bad_bots.md)
+    - [Deny access from all](https://github.com/haupt-pascal/htaccess/blob/main/src/security/deny_all.md)
+    - [Deny all except](https://github.com/haupt-pascal/htaccess/blob/main/src/security/deny_all_except.md)
+    - [Password-Protect a Directory](https://github.com/haupt-pascal/htaccess/blob/main/src/security/password_protection_directory.md)
 
 ## Contributing & Requests
 
