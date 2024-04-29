@@ -19,6 +19,11 @@ This is a repository with all the usless parts of a .htaccess file. From redirec
     - [Deny all except](https://github.com/haupt-pascal/htaccess/blob/main/src/security/deny_all_except.md)
     - [Password-Protect a Directory](https://github.com/haupt-pascal/htaccess/blob/main/src/security/password_protection_directory.md)
 
+- ### [Performance](https://github.com/haupt-pascal/htaccess?tab=readme-ov-file#performance)
+    - [Compress Text Files](https://github.com/haupt-pascal/htaccess/blob/main/src/performance/compress_text_files.md)
+    - [Set expire headers](https://github.com/haupt-pascal/htaccess/blob/main/src/performance/set_expire_headers.md)
+    - [Disable ETags](https://github.com/haupt-pascal/htaccess/blob/main/src/performance/disable_etags.md)
+
 ## Contributing & Requests
 
 Contributions are always welcome, you can create a GitHub Issue with your wishes, goals etc. and we are happy to find a solution. 
