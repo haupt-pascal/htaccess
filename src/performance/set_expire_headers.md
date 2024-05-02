@@ -1,4 +1,6 @@
 ## Set Expire Headers
+This is used to set the expire headers for the static files. This will help to reduce the server load and improve the performance of the website.
+
 ``` bash
 <IfModule mod_expires.c>
     ExpiresActive On

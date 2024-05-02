@@ -1,6 +1,7 @@
 ## Compress Text Files with Gzip/Deflate
+This is used to compress text files like HTML, CSS, JavaScript, XML, JSON, and SVG files. This is done to reduce the size of the files and speed up the loading time of the website.
+
 ``` bash
-# Compress a text file with gzip
 <IfModule mod_deflate.c>
     <IfModule mod_setenvif.c>
         <IfModule mod_headers.c>

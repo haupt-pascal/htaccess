@@ -1,3 +1,6 @@
+## Redirecting www to non-www
+This is used to redirect all requests from www to non-www. This is useful for SEO purposes.
+
 ```bash
 RewriteEngine On
 RewriteBase /

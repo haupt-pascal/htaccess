@@ -1,3 +1,6 @@
+## Blocking bad bots
+This is used to block bad bots from accessing your website. This is useful to prevent bad bots from crawling your website and consuming your server resources.
+
 ```bash
 <IfModule mod_setenvif.c>
 SetEnvIfNoCase User-Agent "^12soso.*" bad_bot
