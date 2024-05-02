@@ -18,6 +18,7 @@ This is a repository with all the usless parts of a .htaccess file. From redirec
     - [Deny access from all](https://github.com/haupt-pascal/htaccess/blob/main/src/security/deny_all.md)
     - [Deny all except](https://github.com/haupt-pascal/htaccess/blob/main/src/security/deny_all_except.md)
     - [Password-Protect a Directory](https://github.com/haupt-pascal/htaccess/blob/main/src/security/password_protection_directory.md)
+    - [Disable listing of certain filetype](https://github.com/haupt-pascal/htaccess/blob/main/src/security/disable_certain_filetypes.md)
 
 - ### [Performance](https://github.com/haupt-pascal/htaccess?tab=readme-ov-file#performance)
     - [Compress Text Files](https://github.com/haupt-pascal/htaccess/blob/main/src/performance/compress_text_files.md)
